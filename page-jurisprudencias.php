@@ -15,16 +15,9 @@
 			
 	</section>
 	<section class="bgRosaOsc py-5 border-b-b px-xl-5">
-		<div class="container-fluid  ">
-			<div class="row">
-				<div class="col-12">
-					<h2 class="text-left text-lg-center mb-5">Últimas jurisprudencias</h2>			
-				</div>
-			</div>
-			<div class="row justify-content-center"> 
     <!-- ULTIMAS -->
     <?php 
-    $loop = new WP_Query( array( 'post_type' => 'jurisprudencia', 'posts_per_page' => 10, 'orderby'=> 'post_date' ) ); 
+    $loop = new WP_Query( array( 'post_type' => 'jurisprudencia',  'orderby'=> 'post_date' ) ); 
 
     while ( $loop->have_posts() ) : $loop->the_post();
     ?>

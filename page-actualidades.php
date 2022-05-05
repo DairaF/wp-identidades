@@ -24,7 +24,7 @@
 			<div class="row justify-content-center"> 
     <!-- ULTIMAS -->
     <?php 
-    $loop = new WP_Query( array( 'post_type' => 'actualidad', 'posts_per_page' => 10, 'orderby'=> 'post_date' ) ); 
+    $loop = new WP_Query( array( 'post_type' => 'actualidad',  'orderby'=> 'post_date' ) ); 
 
     while ( $loop->have_posts() ) : $loop->the_post();
     ?>

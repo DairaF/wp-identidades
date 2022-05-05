@@ -3,7 +3,7 @@
 // LOOP
 $loop = new WP_Query( array( 
     'post_type' => array('post','post'), 
-    'posts_per_page' => 10,
+    
     'tag' => 'tag',
     'orderby' => 'meta_value_num',
     'order' => 'DESC'

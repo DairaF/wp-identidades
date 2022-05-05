@@ -34,7 +34,7 @@
 				<div class="row justify-content-center">
                     <?php 
 					$con = 0;
-                    $loop = new WP_Query( array( 'post_type' => 'promotor', 'posts_per_page' => 10, 'orderby'=> 'title','order'=>'ASC' ) ); 
+                    $loop = new WP_Query( array( 'post_type' => 'promotor',  'orderby'=> 'title','order'=>'ASC' ) ); 
                 
                     while ( $loop->have_posts() ) : $loop->the_post();
                     ?>
