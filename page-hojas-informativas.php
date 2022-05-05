@@ -2,7 +2,7 @@
 
 
       <section class="bggradC gradAnimado intro pushBottom">
-			<div class="">
+			<div class="container">
 				<div class="row">
 					<div class="col-12 col-lg-8 col-xl-6 pt-5">				
 						<h1 class="text-left text-lg-center"><?php the_title(); ?></h1>

@@ -104,7 +104,7 @@ body{
 
 /* gradiente de 4 colores y animacion */
 .bggrad4col {
-    background: linear-gradient(299deg, #f8d3e6, #c9f4f6, #c5b6f7, #ffee8a);
+		background: linear-gradient(270deg, rgba(127,222,226,1) 0%, rgba(151,141,255,1) 33%, rgba(251,255,130,1) 66%, rgba(255,148,225,1) 100%);
     background-size: 800% 800%;
     -webkit-animation: grad4col 13s ease infinite;
     -moz-animation: grad4col 13s ease infinite;
@@ -129,7 +129,7 @@ body{
 /* FIN gradiente de 4 colores y animacion */
 /* estilo amarillo y blanco gradiente  */
 .bggradY {
-    background: linear-gradient(299deg, #ffffff, #ffee8a);
+    background: linear-gradient(299deg, #f7ffc0, #ffee8a);
     background-size: 400% 400%;
 
     -webkit-animation: gradientAnim 13s ease infinite;
@@ -146,13 +146,13 @@ body{
 }
 
 .bggradC {
-	background: rgb(255,255,255);
-	background: linear-gradient(143deg, rgba(255,255,255,1) 0%, rgba(201,244,246,1) 44%);
+background: rgb(127,222,226);
+background: linear-gradient(270deg, rgba(127,222,226,1) 0%, rgba(201,244,246,1) 100%);
 }
 
 
 .bggradC.gradAnimado {
-    background: linear-gradient(299deg, #ffffff, #c9f4f6);
+    background: linear-gradient(299deg, rgba(127,222,226,1), rgba(201,244,246,1));
     background-size: 400% 400%;
 
     -webkit-animation: gradientAnim 13s ease infinite;
@@ -167,13 +167,13 @@ body{
 }
 
 .bggradLila {
-	background: rgb(255,255,255);
-	background: linear-gradient(218deg, rgba(255,255,255,1) 0%, rgba(203,194,249,1) 62%);
+background: rgb(159,150,255);
+background: linear-gradient(270deg, rgba(159,150,255,1) 0%, rgba(203,194,249,1) 100%);
  
 }
 
 .bggradLila.gradAnimado {
-    background: linear-gradient(299deg, #ffffff, #cbc2f9);
+    background: linear-gradient(299deg, rgba(159,150,255,1), rgba(203,194,249,1));
     background-size: 400% 400%;
 
     -webkit-animation: gradientAnim 13s ease infinite;
@@ -187,12 +187,12 @@ body{
 }
 
 .bggradRosa {
-background: rgb(248,211,230);
-background: linear-gradient(270deg, rgba(248,211,230,1) 0%, rgba(255,255,255,1) 33%, rgba(248,211,230,1) 82%);
+background: rgb(252,157,226);
+background: linear-gradient(270deg, rgba(252,157,226,1) 0%, rgba(252,203,229,1) 100%);
 }
 
 .bggradRosa.gradAnimado {
-background: linear-gradient(270deg, rgba(248,211,230,1) 0%, rgba(255,255,255,1) 33%, rgba(248,211,230,1) 82%);
+background: linear-gradient(270deg, rgba(252,157,226,1) 0%, rgba(252,203,229,1) 100%);
 
     background-size: 400% 400%;
 
@@ -1096,6 +1096,13 @@ ul.autorContainer li.autor:nth-child(2) .autorIcon{
 	font-family:"aktiv-grotesk-medium";
 }
 
+@media screen and (min-width: 992px) and (max-width: 1440px) { 
+.card { 
+	min-height: 400px; 
+}
+}
+
+
 
 /*----------------------
 ELEMENTOS DE INTERNA
@@ -1545,10 +1552,15 @@ ul.letters li{
 }
 
 
-.glosario li h4,
+ 
 .glosario li p{
 	color:var(--blanco); 
 	font-family:"aktiv-grotesk-light";
+}
+
+.glosario li h4{
+	color:var(--blanco); 
+	font-family:"aktiv-grotesk-medium";
 }
 
 

@@ -82,11 +82,17 @@
 				<div class="row justify-content-center">
 							
 				<!-- CARD promotor -->
-					<div class="col-12  mb-4">
+					<div class="col-12 col-lg-4  mb-4">
 						<p class="blanco"><strong>Producci&oacute;n</strong></p>
-						<p class="blanco">Nombre Apellido<br />Nombre Apellido<br />Nombre Apellido<br />Nombre Apellido</p>
+						<p class="blanco">Nombre Apellido<br />Nombre Apellido<br />Nombre Apellido<br />Nombre Apellido</p> 			
+					</div>
+
+					<div class="col-12 col-lg-4 mb-4"> 
 						<p class="blanco"><strong>Gui&oacute;n</strong></p>
-						<p class="blanco">Nombre Apellido<br />Nombre Apellido<br />Nombre Apellido<br />Nombre Apellido</p>
+						<p class="blanco">Nombre Apellido<br />Nombre Apellido<br />Nombre Apellido<br />Nombre Apellido</p> 				
+					</div>
+
+					<div class="col-12 col-lg-4 mb-4"> 
 						<p class="blanco"><strong>Dise&ntilde;o</strong></p>
 						<p class="blanco">Nombre Apellido<br />Nombre Apellido<br />Nombre Apellido<br />Nombre Apellido</p>					
 					</div>
