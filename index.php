@@ -96,7 +96,7 @@
           }
         }
         ?>
-          <a href="<?php the_permalink()?>" target="blank" class="card" style="background-image:url('uploads/cards/1.jpg'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
+          <a href="<?php the_permalink()?>" target="blank" class="card" style="background-image:url('<?php the_field('foto') ?>'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
             <div class="card-body <?php 
                 if($categ='salud'){ echo('salud');}
                 else if($categ='identificacion'){ echo('identificacion');} 
@@ -126,7 +126,7 @@
           }
         }
         ?>
-          <a href="<?php the_permalink()?>" target="blank" class="card" style="background-image:url('uploads/cards/1.jpg'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
+          <a href="<?php the_permalink()?>" target="blank" class="card" style="background-image:url('<?php the_field('foto') ?>'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
             <div class="card-body <?php 
                 if($categ='salud'){ echo('salud');}
                 else if($categ='identificacion'){ echo('identificacion');} 
@@ -156,7 +156,7 @@
           }
         }
         ?>
-          <a href="<?php the_permalink()?>" target="blank" class="card" style="background-image:url('uploads/cards/1.jpg'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
+          <a href="<?php the_permalink()?>" target="blank" class="card" style="background-image:url('<?php the_field('foto') ?>'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
             <div class="card-body <?php 
                 if($categ='salud'){ echo('salud');}
                 else if($categ='identificacion'){ echo('identificacion');} 

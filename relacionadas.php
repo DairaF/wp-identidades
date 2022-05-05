@@ -29,7 +29,7 @@
   <!-- CARD -->
         <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 px-xl-4">
 				
-          <a href="<?php the_permalink()?>" target="blank" class="card" style="background-image:url('uploads/cards/1.jpg'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
+          <a href="<?php the_permalink()?>" target="blank" class="card" style="background-image:url('<?php the_field('foto') ?>'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
             <div class="card-body">
               <h4 class="card-title mb-3 d-block"><?php the_title(); ?></h4>
               <div class="d-flex align-items-center justify-content-between">
