@@ -33,38 +33,17 @@
  		
 		
 		<!-- SLICK CSS -->
-		<!-- <link rel="stylesheet" href="assets/css/slick.css"> 		
-		<link rel="stylesheet" href="assets/css/slick-theme.css"> 		
-		 -->
+		<link rel="stylesheet" href="/wp-includes/css/slick.css"> 		
+		<link rel="stylesheet" href="/wp-includes/css/slick-theme.css"> 		
+		
 		<!-- Custom core CSS -->
-		<link rel="stylesheet" href="./style.css"> 
-		<link rel="stylesheet" href="assets/css/fonts.css"> 
-		<link rel="stylesheet" href="assets/css/style.css"> 
+		<link rel="stylesheet" href="/wp-includes/css/fonts.css"> 
+		<link rel="stylesheet" href="/wp-includes/css/style.css"> 
 		<?php wp_head(); ?>
 	</head>
 
 
-  <body <?php body_class(); ?> onload="tagsActive()" >
-  <script>
-	  const tagsActive = () => {
-        tagActive('identificacion');
-        tagActive('salud');
-        tagActive('reparacion');
-        tagActive('participacion');
-        tagActive('datos');
-        tagActive('violencias');
-      }
-      const tagActive = (tag) =>{
-        let url = window.location.href;
-        if(url.indexOf(tag) == -1){
-			if(document.getElementById(tag)){
-          document.getElementById(tag).classList.remove('active');}
-        }else{
-			if(document.getElementById(tag)){
-          document.getElementById(tag).classList.add('active');}
-        }
-      }
-  </script>
+  <body <?php body_class(); ?>>
   <header id="site-header">
 		<div class="brand"><a href="index.html">fund.ar</a></div>
 		<div id="menuArea">
