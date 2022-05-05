@@ -245,15 +245,15 @@ background: radial-gradient(circle, rgba(253,255,142,1) 0%, rgba(187,254,235,1) 
 	 font-weight:normal;
  }
  
-h1 {font-size: 72px; 	font-family:"aktiv-grotesk-medium";}
+h1 {font-size: 68px; 	font-family:"aktiv-grotesk-medium";}
 
-h2 {font-size: 40px; 	font-family:"aktiv-grotesk-medium";}
+h2 {font-size: 36px; 	font-family:"aktiv-grotesk-medium";}
 
-h3 {font-size: 32px;}
+h3 {font-size: 38px;}
 
-h4 {font-size: 24px;}
+h4 {font-size: 21px;}
 
-p {font-size:21px;}
+p {font-size:18px;}
 	
 
 strong { font-weight:700;}
@@ -309,7 +309,7 @@ a, a:hover, a:focus {
     height: 80px;
     background: transparent;
     top: 0;
-    padding: 10px;
+    padding:20px 30px 20px 60px;
     width: 100%;
     z-index: 1000;
     transition: all .3s ease;
@@ -396,8 +396,7 @@ input#menuToggle {
 
 .menu {
   position: fixed;
-  width: 500px;
-  min-height: 100vh;
+  width: 500px; 
   top: 0;
   right: 0;
   background:#151515;
@@ -418,7 +417,7 @@ input#menuToggle {
   top: 0%;
   font-size: 54px;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
   margin-top:80px;
 }
 
@@ -446,7 +445,7 @@ input#menuToggle {
 .menu ul li a {
   display: block;
   text-decoration: none;
-  padding: 10px 20px;
+  padding:10px 70px 10px 20px;
 	text-align: left;
 }
 
@@ -518,6 +517,7 @@ input#menuToggle {
 @media screen and (max-width: 499px) {
 	.menu {
      width: 100%; 
+		 min-height:100vh;
 }
 }
 
@@ -536,7 +536,7 @@ section{
  }
 
 .intro p {
-	font-size:24px;
+	font-size:21px;
 }
 
 .overHide {

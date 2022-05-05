@@ -29,8 +29,9 @@
                     <ul>
                 </div>
                 <div class="col-12 col-lg-10 col-xl-8 mb-4">
-                    <h1 class="text-left text-lg-center"><?php the_title() ?></h1>
-                    <h4 class="d-none d-lg-block text-center" >Hojas informativas</h4>
+                    <h4 class="d-none d-lg-block text-center" ><a href="">Hojas informativas</a></h4>
+										<h1 class="text-left text-lg-center"><?php the_title() ?></h1>
+                    
                 </div>
                 <div class="col-12 col-lg-10 col-xl-8 my-4">				
                     <ul class="autorContainer justify-content-lg-center">              

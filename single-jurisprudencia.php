@@ -30,8 +30,8 @@ $abstract = get_post_meta( get_the_ID(), 'abstract', true);
                     </ul>
                 </div>
                 <div class="col-12 col-lg-10 col-xl-8 mb-4">
+                    <h4 class="d-none d-lg-block text-center" ><a href="">Jurisprudencias</a></h4>
                     <h1 class="text-left text-lg-center"><?php the_title() ?></h1>
-                    <h4 class="d-none d-lg-block text-center" >Jurisprudencias</h4>
                 </div>
     </div>
   </div>

@@ -28,20 +28,22 @@
     <?php get_header(); ?>
 
     <section class="bggrad4col intro border-b-b ">
-			<div class="">
+			<div class="container">
 				<div class="row">
 					<div class="col-12 pt-5">				
 						<h1 class="text-left text-lg-center">Identidades<br>informadas</h1>
 					</div>
 				</div>
 				<div class="row justify-content-lg-center">
-					<div class="col-12 col-lg-10 col-xl-8 pt-4 pt-lg-5">				
+					<div class="col-12 col-lg-8 col-xl-6 pt-4 pt-lg-5">				
 						<p class="text-left text-lg-center ">Una plataforma informativa sobre la Ley de Identidad de Género, con material clave para planificar y diseñar políticas públicas que avancen en la conquista de derechos para las personas trans, travestis y no binarias. 
             </p><p class="text-left text-lg-center ">
             Iniciativa que se propone aportar a su visibilidad, como también recuperar sus demandas y sus luchas políticas por la identidad como derecho humano. 
             </p>
 					</div>
-					<div class="col-12 col-lg-10 col-xl-8 pt-4 pt-lg-5 pb-4 pb-lg-5">				
+				</div>
+				<div class="row justify-content-lg-center">	
+					<div class="col-12 col-lg-8 col-xl-5 pt-4 pt-lg-5 pb-4 pb-lg-5">				
 						<ul class="tagContainer justify-content-lg-center">
               <li class="tag"><a id="identificacion" onClick="setTag('identificacion')" href="">Identificación</a></li>
 							<li class="tag"><a id="salud" onClick="setTag('salud')" href="">Salud integral</a></li>
