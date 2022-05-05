@@ -2,12 +2,12 @@
 
 	<div class="col-12 col-lg-10 col-xl-8 pt-4 pt-lg-5">				
 		<ul class="tagContainer justify-content-lg-center">
-			<li class="tag"><a onClick="setTag('identificacion')" href="">Identificación</a></li>
-			<li class="tag"><a onClick="setTag('salud')" href="">Salud integral</a></li>
-			<li class="tag"><a onClick="setTag('reparacion')" href="">Reparación</a></li>
-			<li class="tag"><a onClick="setTag('participacion')" href="">Participación</a></li>
-			<li class="tag"><a onClick="setTag('datos')" href="">Datos</a></li>
-			<li class="tag"><a onClick="setTag('violencias')" href="">Violencias</a></li>
+			<li class="tag"><a id="identificacion" onClick="setTag('identificacion')" href="">Identificación</a></li>
+			<li class="tag"><a id="salud" onClick="setTag('salud')" href="">Salud integral</a></li>
+			<li class="tag"><a id="reparacion" onClick="setTag('reparacion')" href="">Reparación</a></li>
+			<li class="tag"><a id="participacion" onClick="setTag('participacion')" href="">Participación</a></li>
+			<li class="tag"><a id="datos" onClick="setTag('datos')" href="">Datos</a></li>
+			<li class="tag"><a id="violencias" onClick="setTag('violencias')" href="">Violencias</a></li>
 		</ul>
 	</div>
 	<div class="col-12 col-lg-10 col-xl-8 pb-5">	

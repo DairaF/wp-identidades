@@ -42,7 +42,12 @@
                 ?>  
               </p>
               <div class="d-flex align-items-center justify-content-between">
-                <p class="cardTag"><?php the_category() ?></p>
+                <p class="cardTag"><?php $categories = get_the_category();
+                if ($categories) {
+                  foreach($categories as $cat) {
+                    echo ($cat->name);
+                  }
+                } ?></p>
                 <p class="cardDate mb-0"><?php the_date() ?></p>
               </div>
             </div>
@@ -107,7 +112,12 @@
               ?>  
             </p>
             <div class="d-flex align-items-center justify-content-between">
-              <p class="cardTag"><?php the_category() ?></p>
+              <p class="cardTag"><?php $categories = get_the_category();
+                if ($categories) {
+                  foreach($categories as $cat) {
+                    echo ($cat->name);
+                  }
+                } ?></p>
               <p class="cardDate mb-0"><?php the_date() ?></p>
             </div>
           </div>

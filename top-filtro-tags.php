@@ -2,6 +2,22 @@
   $search = $_POST['searchTerm'];
 ?>
 <script>
+    const tagsActive = () => {
+        tagActive('identificacion');
+        tagActive('salud');
+        tagActive('reparacion');
+        tagActive('participacion');
+        tagActive('datos');
+        tagActive('violencias');
+      }
+      const tagActive = (tag) =>{
+        let url = window.location.href;
+        if(url.indexOf(tag) == -1){
+          document.getElementById(tag).classList.remove('active');
+        }else{
+          document.getElementById(tag).classList.add('active');
+        }
+      }
         const setTag = (tag) =>{
             let url = window.location.href;
             if(url.indexOf(tag) == -1){

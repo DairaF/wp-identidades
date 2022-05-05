@@ -5,27 +5,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
-<body>
+<body onload="tagsActive()" >
     <script>
         const setTag = (tag) =>{
             let url = window.location.href;
             if(url.indexOf(tag) == -1){
                 if (url.indexOf('?') == -1){
                     nextURL = window.location+"?"+tag+"="+tag;
-					window.history.replaceState("nextState", "nextTitle", nextURL);
+					          window.history.replaceState("nextState", "nextTitle", nextURL);
                 }
                 else{
                     nextURL = window.location+"&"+tag+"="+tag;
-					window.history.replaceState("nextState", "nextTitle", nextURL);
+					          window.history.replaceState("nextState", "nextTitle", nextURL);
                 }
+              document.getElementById(tag).classList.add('active');
             }else{
                 if(url.indexOf(`/?${tag}`) == -1){
-					nextURL = url.replace(`&${tag}=${tag}`,'');
-					window.history.replaceState("nextState", "nextTitle", nextURL);
+                  nextURL = url.replace(`&${tag}=${tag}`,'');
+                  window.history.replaceState("nextState", "nextTitle", nextURL);
                 }else{
-                    nextURL = url.replace(`/?${tag}=${tag}`,'/?');
-					window.history.replaceState("nextState", "nextTitle", nextURL);
+                  nextURL = url.replace(`/?${tag}=${tag}`,'/?');
+					        window.history.replaceState("nextState", "nextTitle", nextURL);
                 }
+              document.getElementById(tag).classList.remove('active');
             }
         }
     </script>
@@ -47,34 +49,12 @@
 					</div>
 					<div class="col-12 col-lg-10 col-xl-8 pt-4 pt-lg-5 pb-4 pb-lg-5">				
 						<ul class="tagContainer justify-content-lg-center">
-              <?php
-                // $tags = array (
-                //   array('identificacion','Identificación'),
-                //   array('salud','Salud integral'),
-                //   array('reparacion','Reparación'),
-                //   array('participacion','Participación'),
-                //   array('datos','Datos'),
-                //   array('violencias','Violencias')
-                // );
-                
-                // for ($row = 0; $row < 5; $row++) {
-                //   $args = array(
-                //     'tag' => $tags[$row][0]
-                //   );
-                //   $loop = new WP_Query( $args );
-                //   if ($loop->have_posts()){
-                //     echo('<li class="tag"><a onClick="setTag(\''.$tags[$row][0].'\')" href="">'.$tags[$row][1].'</a></li>');
-                //   }else{
-                //     echo('no');
-                //   }
-                // }
-              ?>
-              <li class="tag"><a onClick="setTag('identificacion')" href="">Identificación</a></li>
-							<li class="tag"><a onClick="setTag('salud')" href="">Salud integral</a></li>
-							<li class="tag"><a onClick="setTag('reparacion')" href="">Reparación</a></li>
-							<li class="tag"><a onClick="setTag('participacion')" href="">Participación</a></li>
-							<li class="tag"><a onClick="setTag('datos')" href="">Datos</a></li>
-							<li class="tag"><a onClick="setTag('violencias')" href="">Violencias</a></li>
+              <li class="tag"><a id="identificacion" onClick="setTag('identificacion')" href="">Identificación</a></li>
+							<li class="tag"><a id="salud" onClick="setTag('salud')" href="">Salud integral</a></li>
+							<li class="tag"><a id="reparacion" onClick="setTag('reparacion')" href="">Reparación</a></li>
+							<li class="tag"><a id="participacion" onClick="setTag('participacion')" href="">Participación</a></li>
+							<li class="tag"><a id="datos" onClick="setTag('datos')" href="">Datos</a></li>
+							<li class="tag"><a id="violencias" onClick="setTag('violencias')" href="">Violencias</a></li>
 
 						</ul>
 						
@@ -92,9 +72,6 @@
 
     $url_components = parse_url($url);
     parse_str($url_components['query'], $params);
-    // foreach ($params as $param) {
-    //     echo ($param);
-    //   }
     $selectedTag = $params;
     $loop = new WP_Query( array( 
               'post_type' => array('hojas', 'normativa', 'jurisprudencia','aplicacion'), 
@@ -112,12 +89,29 @@
       ?>
   <!-- CARD -->
         <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 px-xl-4">
-				
-          <a href="<?php the_permalink()?>"  class="card" style="background-image:url('uploads/cards/1.jpg'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
-            <div class="card-body">
+				<?php $categories = get_the_category(); 
+        $categ; 
+        $categName;
+        if ($categories) {
+          foreach($categories as $cat) {
+            $categName = $cat->name;
+            $categ = $cat->slug;
+          }
+        }
+        ?>
+          <a href="<?php the_permalink()?>" target="blank" class="card" style="background-image:url('uploads/cards/1.jpg'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
+            <div class="card-body <?php 
+                if($categ='salud'){ echo('salud');}
+                else if($categ='identificacion'){ echo('identificacion');} 
+                else if($categ='reparacion'){ echo('reparacion');} 
+                else if($categ='participacion'){ echo('participacion');} 
+                else if($categ='datos'){ echo('datos');} 
+                else if($categ='violencias'){ echo('violencias');}  
+             ?>">
               <h4 class="card-title mb-3 d-block"><?php the_title(); ?></h4>
               <div class="d-flex align-items-center justify-content-between">
-                <p class="cardTag"><?php the_category(); ?></p>
+                <p class="cardTag"><?php
+                echo($categName) ?></p>
                 <p class="cardDate mb-0"><?php the_date(); ?></p>
               </div>
             </div>

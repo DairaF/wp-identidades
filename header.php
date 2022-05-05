@@ -44,7 +44,27 @@
 	</head>
 
 
-  <body <?php body_class(); ?>>
+  <body <?php body_class(); ?> onload="tagsActive()" >
+  <script>
+	  const tagsActive = () => {
+        tagActive('identificacion');
+        tagActive('salud');
+        tagActive('reparacion');
+        tagActive('participacion');
+        tagActive('datos');
+        tagActive('violencias');
+      }
+      const tagActive = (tag) =>{
+        let url = window.location.href;
+        if(url.indexOf(tag) == -1){
+			if(document.getElementById(tag)){
+          document.getElementById(tag).classList.remove('active');}
+        }else{
+			if(document.getElementById(tag)){
+          document.getElementById(tag).classList.add('active');}
+        }
+      }
+  </script>
   <header id="site-header">
 		<div class="brand"><a href="index.html">fund.ar</a></div>
 		<div id="menuArea">

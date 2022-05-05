@@ -11,7 +11,9 @@
 
 					</div>
 				</div>
-				<?php include_once('tags-bar.php'); ?>
+				<?php 
+				// include_once('tags-bar.php'); 
+				?>
       </div>
 			
 	</section>
@@ -56,7 +58,6 @@
           $minTitle = strtolower(get_the_title());
           $minSearch = strtolower($search);
           while ( $loop->have_posts() && $ok == true ) : $loop->the_post(); if ($search == null || str_contains($minTitle,$minSearch)): ?>
-			<!-- CARD -->
 			<div class="post">
 				<h6 class="lila"><?php the_field('date'); ?></h6>
 				<h4 class="lilaOsc"><?php the_title() ?></h4>
@@ -75,6 +76,7 @@
 
 
 	<?php 
+		$con =0;
 		$years = array();
 		$loop = new WP_Query( array( 
 			'post_type' => 'normativa', 
@@ -117,10 +119,26 @@
 								<h3 class="d-none d-md-block lila mb-4"><strong><?php echo($key) ?></strong></h3>							
 								<?php foreach ($years[$key] as $normativa){ ?>
 								<div class="post">
+									<?php
+										$con++;
+										$content = $normativa['content'];
+										$largo = strlen($content);
+										$cropped = substr($content, 0, 400);
+									?>
 									<h6 class="lila"><?php echo($normativa['date']); ?></h6>
 									<h4 class="lilaOsc"><?php echo($normativa['title']); ?></h4>
-									<p class="blanco"><?php echo($normativa['content']); ?></p>
-									<!-- <a class="">+ Ver más</a> -->
+									<?php if($largo >= 1000){ ?>
+									<p id="crop<?php echo $con ?>" class="blanco"><?php echo $cropped ?></p>
+									<a class="blanco seeMore" onClick="this.style.display = 'none'; 
+										document.getElementById('crop<?php echo $con ?>').style.display = 'none';
+										document.getElementById('full<?php echo $con ?>').style.display = 'block';
+										">
+										+ Ver más</a>
+									<p style="display:none" id="full<?php echo $con ?>" class="blanco more"><?php echo $content ?></p>
+									<?php }else{ ?>
+										<p style="display:none" id="crop<?php echo $con ?>" class="blanco"><?php echo $cropped ?></p>
+										<p id="full<?php echo $con ?>" class="blanco more"><?php echo $content ?></p>
+									<?php } ?>
 								</div>
 								<?php }?>
 							</div>
