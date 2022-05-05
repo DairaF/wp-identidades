@@ -18,7 +18,7 @@
 						</p><p class="blanco">
 						Creamos Identidades Informadas para poner a disposición contenidos elaborados a partir de conocimientos construidos colectivamente. Creemos que el reconocimiento de la identidad de género de las personas está indisolublemente ligado al respeto de su dignidad, por lo que proponemos este sitio como herramienta para avanzar en la conquista de derechos.
 						</p><p class="blanco">
-						El objetivo del proyecto es articular entre la producción de información del movimiento LGBTTIIQ+ y las personas encargadas de tomar decisiones y diseñar políticas públicas. 
+						El objetivo del proyecto es articular entre la producción de información del movimiento LGBTTI+ y las personas encargadas de tomar decisiones y diseñar políticas públicas. 
 						</p><p class="blanco">
 						Este proyecto es una iniciativa del equipo de Géneros de Fundar. 
 						</p>
@@ -33,7 +33,7 @@
 				
 				<div class="row justify-content-center">
                     <?php 
-                    $loop = new WP_Query( array( 'post_type' => 'promotor', 'posts_per_page' => 10, 'orderby'=> 'post_date' ) ); 
+                    $loop = new WP_Query( array( 'post_type' => 'promotor', 'posts_per_page' => 10, 'orderby'=> 'title','order'=>'ASC' ) ); 
                 
                     while ( $loop->have_posts() ) : $loop->the_post();
                     ?>

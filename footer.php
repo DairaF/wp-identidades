@@ -4,7 +4,9 @@
         
 				<div class="col-12 col-lg-6 col-xl-4">
 					<div class="w-100 footer-brand mb-4">
+						<a href="https://fund.ar" target="blank">
 						<img src="https://identidadesinformadas.fund.ar/wp-content/uploads/2022/05/brand-footer.png" />
+						</a>
 					</div>
 				</div>
 				
@@ -24,9 +26,9 @@
 					</div>
 					<div class="col-6">
 						<div class="links-sociales">
-							<a href="https://www.facebook.com/fundarcipp" target="_blank"><i class="fab fa-facebook-f"></i></a>
-							<a href="https://twitter.com/fundesarg" target="_blank"><i class="fab fa-twitter"></i></a>
-							<a href="https://www.linkedin.com/company/fundesarg/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+							<a href="https://www.instagram.com/fundarpoliticas" target="_blank"><i class="fab fa-instagram"></i></a>
+							<a href="https://twitter.com/fundarpoliticas" target="_blank"><i class="fab fa-twitter"></i></a>
+							<a href="https://www.linkedin.com/company/fundarpoliticas/?originalSubdomain=ar" target="_blank"><i class="fab fa-linkedin-in"></i></a>
 						</div>           
 					</div>
 				</div>
