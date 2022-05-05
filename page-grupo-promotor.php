@@ -33,6 +33,7 @@
 				
 				<div class="row justify-content-center">
                     <?php 
+					$con = 0;
                     $loop = new WP_Query( array( 'post_type' => 'promotor', 'posts_per_page' => 10, 'orderby'=> 'title','order'=>'ASC' ) ); 
                 
                     while ( $loop->have_posts() ) : $loop->the_post();
@@ -43,7 +44,24 @@
 						<div class="promotor blanco">
 								<div class="pic-autxr mb-4"><img src="<?php the_field('foto') ?>"/></div>
 								<h4 class="card-title mb-3 d-block blanco"><?php the_title() ?></h4>
-								<p class="blanco"><?php the_content() ?></p>
+								<?php
+										$con++;
+										$content = get_the_content();
+										$largo = strlen($content);
+										$cropped = substr($content, 0, 400);
+									?>
+								<?php if($largo >= 400){ ?>
+									<p id="crop<?php echo $con ?>" class="blanco"><?php echo $cropped ?></p>
+									<a class="blanco seeMore" onClick="this.style.display = 'none'; 
+										document.getElementById('crop<?php echo $con ?>').style.display = 'none';
+										document.getElementById('full<?php echo $con ?>').style.display = 'block';
+										">
+										+ Ver más</a>
+									<p style="display:none" id="full<?php echo $con ?>" class="blanco more"><?php echo $content ?></p>
+									<?php }else{ ?>
+										<p style="display:none" id="crop<?php echo $con ?>" class="blanco"><?php echo $cropped ?></p>
+										<p id="full<?php echo $con ?>" class="blanco more"><?php echo $content ?></p>
+									<?php } ?>
 						</div>
 					</div>
 								
