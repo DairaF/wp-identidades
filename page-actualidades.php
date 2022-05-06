@@ -27,7 +27,7 @@
 		<div class="container-fluid  ">
 			<div class="row">
 
-            <div class="c-relacionadas">
+           
         <?php
         $loop = new WP_Query( array('post_type' => 'aplicacion'));
         $ok = false; 
@@ -50,6 +50,7 @@
           <div class="col-12">
             <h2 class="text-left text-lg-center mb-5">Actualidades sobre: <?php foreach ($params as $param) { echo (ucwords($param)); } ?></h2>			
           </div>
+					 <div class="c-relacionadas">
           <?php
           }
           $minTitle = strtolower(get_the_title());
