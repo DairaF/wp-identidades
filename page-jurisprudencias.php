@@ -10,7 +10,30 @@
 						<p class="text-left text-lg-center ">Fallos que avanzan en la garantía de derechos de las personas travestis, trans y no binarias. Selección sobre la base compilada por la Secretaría General de Capacitación y Jurisprudencia del Ministerio Público de la Defensa de la Nación. </p>
 					</div>
 				</div>
-				<?php include_once('tags-bar.php'); ?>
+				<div class="row justify-content-lg-center">
+
+          <div class="col-12 col-lg-8 col-xl-6 pt-4 pt-lg-5">				
+            <ul class="tagContainer justify-content-lg-center">
+              <li class="tag"><a id="identificacion" onClick="setTag('identificacion')" href="">Identificación</a></li>
+              <li class="tag"><a id="salud" onClick="setTag('salud')" href="">Salud integral</a></li>
+              <li class="tag"><a id="reparacion" onClick="setTag('reparacion')" href="">Reparación</a></li>
+              <li class="tag"><a id="participacion" onClick="setTag('participacion')" href="">Participación</a></li>
+              <li class="tag"><a id="violencias" onClick="setTag('violencias')" href="">Violencias</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row justify-content-lg-center">
+          <div class="col-12 col-lg-8 col-xl-6 pb-5">	
+            <form name="searchForm" action="" method="post">
+              <div class="buscar-group">
+                <input name="searchTerm" type="text" class="form-control formBuscar" placeholder="Buscar">
+                  <button type="submit" class="btnBuscar" type="button">
+                    <i class="fa fa-search"></i>
+                  </button>
+              </div>
+            </form>	
+          </div>
+        </div>
       		</div>
 			
 	</section>

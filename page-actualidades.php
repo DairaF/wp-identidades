@@ -14,14 +14,7 @@
       		</div>
 			
 	</section>
-	<section class="bgRosaOsc py-5 border-b-b px-xl-5">
-		<div class="container-fluid  ">
-			<div class="row">
-				<div class="col-12">
-					<h2 class="text-left text-lg-center mb-5">Últimas actualidades</h2>			
-				</div>
-			</div>
-			<div class="row justify-content-center"> 
+
 
 <!--------------- DE TAGS ------------------------------>		
 <?php  
@@ -87,7 +80,14 @@
 		</div>
 	</section>
 
-
+	<section class="bgRosaOsc py-5 border-b-b px-xl-5">
+		<!-- <div class="container-fluid  ">
+			<div class="row">
+				<div class="col-12">
+					<h2 class="text-left text-lg-center mb-5">Últimas actualidades</h2>			
+				</div>
+			</div>
+		<div class="row justify-content-center">  -->
 
     <!-- ULTIMAS -->
     <?php 

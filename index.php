@@ -130,12 +130,12 @@
 					</div>
 					<div class="col-12 py-4 d-none d-lg-block text-center">		
 						<video autoplay loop muted>
-							<source src="https://identidadesinformadas.fund.ar/wp-content/uploads/2022/05/desk.mp4" type="video/mp4"> 
+							<source src="https://identidadesinformadas.fund.ar/wp-content/uploads/2022/05/desktop1.mp4" type="video/mp4"> 
 						</video>
 					</div>
 					<div class="col-12 py-4 d-block d-lg-none ">		
 						<video autoplay loop muted class="img-fluid">
-							<source src="https://identidadesinformadas.fund.ar/wp-content/uploads/2022/05/mobile.mp4" type="video/mp4"> 
+							<source src="https://identidadesinformadas.fund.ar/wp-content/uploads/2022/05/mobile1.mp4" type="video/mp4"> 
 						</video>
 					</div>
 					<div class="col-12 pb-5 text-left text-lg-center mt-5">		

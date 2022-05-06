@@ -53,6 +53,13 @@
 
 
   <body onload="tagsActive()" <?php body_class(); ?>>
+  <style>
+            .hoja{border:solid 2px --celesteOsc}
+            .aplicacion{border:solid 2px --lilaOsc}
+            .jurisprudencia{border:solid 2px --lilaOsc}
+            .normativa{border:solid 2px --lilaOsc}
+            .actualidad{border:solid 2px --rosa}
+          </style>
   <header id="site-header">
 		<div class="brand"><a href="index.html">fund.ar</a></div>
 		<div id="menuArea">
