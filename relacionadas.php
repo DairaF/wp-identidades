@@ -45,7 +45,7 @@
             .normativa{border:solid 2px --lilaOsc}
             .actualidad{border:solid 2px --rosa}
           </style>
-          <a href="<?php if($categ='actualidad'){the_field('link_nota')}else{the_permalink()}?>" target="blank" class="card" style="background-image:url('<?php the_field('foto') ?>'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
+          <a href="<?php if($categ='actualidad'){the_field('link_nota');}else{the_permalink();}?>" target="blank" class="card" style="background-image:url('<?php the_field('foto') ?>'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
             <div class="card-body <?php 
                 if($categ='hoja'){ echo('hoja');}
                 else if($categ='aplicacion'){ echo('aplicacion');} 
