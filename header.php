@@ -15,30 +15,6 @@
 		================================================== -->
 		<link rel="shortcut icon" href="fav.png"> 
 
-			
-		<!-- CSS
-		================================================== -->
-		<!-- Font Awesome -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
-
- 		<!-- Google Fonts -->
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-		<!-- Bootstrap core CSS -->
-		<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-		<!-- Material Design Bootstrap -->
- 		
-		
-		<!-- SLICK CSS -->
-		<link rel="stylesheet" href="/wp-includes/css/slick.css"> 		
-		<link rel="stylesheet" href="/wp-includes/css/slick-theme.css"> 		
-		
-		<!-- Custom core CSS -->
-		<link rel="stylesheet" href="/wp-includes/css/fonts.css"> 
-		<link rel="stylesheet" href="/wp-includes/css/style.css"> 
 		<?php wp_head(); ?>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-F2C44LP7W9"></script>
@@ -54,7 +30,6 @@
 
   <body onload="tagsActive()" <?php body_class(); ?>>
   <style>
-            .hoja{border:solid 2px var(--celesteOsc)}
             .aplicacion{border:solid 2px var(--lilaOsc)}
             .jurisprudencia{border:solid 2px var(--lilaOsc)}
             .normativa{border:solid 2px var(--lilaOsc)}
