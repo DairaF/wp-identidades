@@ -30,7 +30,7 @@ $abstract = get_post_meta( get_the_ID(), 'abstract', true);
                     </ul>
                 </div>
                 <div class="col-12 col-lg-10 col-xl-8 mb-4">
-                    <h4 class="d-none d-lg-block text-center" ><a href="">Jurisprudencias</a></h4>
+                    <a href="https://identidadesinformadas.fund.ar/experiencias-comparadas/jurisprudencias/"><h4 class="d-none d-lg-block text-center" ><a href="">Jurisprudencias</a></h4></a>
                     <h1 class="text-left text-lg-center"><?php the_title() ?></h1>
                 </div>
     </div>
