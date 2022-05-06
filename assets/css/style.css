@@ -1255,7 +1255,8 @@ a.adicionales:last-child {
 }
 
 .menu-hoja li a{
-	color:var(--black)
+	color:var(--black);
+	font-size:16px;
 }
 .menu-hoja li a:hover,
 .menu-hoja li a.active{
