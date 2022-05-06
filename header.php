@@ -52,7 +52,7 @@
 	</head>
 
 
-  <body <?php body_class(); ?>>
+  <body onload="tagsActive()" <?php body_class(); ?>>
   <header id="site-header">
 		<div class="brand"><a href="index.html">fund.ar</a></div>
 		<div id="menuArea">

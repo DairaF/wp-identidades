@@ -70,7 +70,7 @@
     parse_str($url_components['query'], $params);
     $selectedTag = $params;
     $loop = new WP_Query( array( 
-              'post_type' => array('hojas', 'normativa', 'jurisprudencia','aplicacion'), 
+              'post_type' => array('actualidad','normativa','jurisprudencia','aplicacion'), 
                 'posts_per_page' => 10 ,
                 'tag' => $selectedTag,
                 'orderby' => 'tag', 
@@ -84,56 +84,25 @@
             <div class="c-relacionadas"> 
         <?php while ( $loop->have_posts() ) : $loop->the_post(); 
       ?>
-  <!-- CARD -->
-  <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 px-xl-4">
-				<?php $categories = get_the_category(); 
-        $categ; 
-        $categName;
-        if ($categories) {
-          foreach($categories as $cat) {
-            $categName = $cat->name;
-            $categ = $cat->slug;
-          }
-        }
-        ?>
-          <a href="<?php the_permalink()?>" target="blank" class="card" style="background-image:url('<?php the_field('foto') ?>'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
-            <div class="card-body <?php 
-                if($categ='salud'){ echo('salud');}
-                else if($categ='identificacion'){ echo('identificacion');} 
-                else if($categ='reparacion'){ echo('reparacion');} 
-                else if($categ='participacion'){ echo('participacion');} 
-                else if($categ='datos'){ echo('datos');} 
-                else if($categ='violencias'){ echo('violencias');}  
-             ?>">
-              <h4 class="card-title mb-3 d-block"><?php the_title(); ?></h4>
-              <div class="d-flex align-items-center justify-content-between">
-                <p class="cardTag"><?php
-                echo($categName) ?></p>
-                <p class="cardDate mb-0"><?php the_date(); ?></p>
-              </div>
-            </div>
-          </a>					
-        </div>
-    <!-- /CARD --><!-- CARD -->
+      <!-- CARD -->
         <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 px-xl-4">
-				<?php $categories = get_the_category(); 
-        $categ; 
-        $categName;
-        if ($categories) {
-          foreach($categories as $cat) {
-            $categName = $cat->name;
-            $categ = $cat->slug;
-          }
-        }
-        ?>
-          <a href="<?php the_permalink()?>" target="blank" class="card" style="background-image:url('<?php the_field('foto') ?>'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
+          <?php $categories = get_the_category(); 
+            $categ; 
+            $categName;
+            if ($categories) {
+              foreach($categories as $cat) {
+                $categName = $cat->name;
+                $categ = $cat->slug;
+              }
+            }
+          ?>
+          <a href="<?php if($categ='actualidad'){the_field('link_nota')}else{the_permalink()}?>" target="blank" class="card" style="background-image:url('<?php the_field('foto') ?>'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
             <div class="card-body <?php 
-                if($categ='salud'){ echo('salud');}
-                else if($categ='identificacion'){ echo('identificacion');} 
-                else if($categ='reparacion'){ echo('reparacion');} 
-                else if($categ='participacion'){ echo('participacion');} 
-                else if($categ='datos'){ echo('datos');} 
-                else if($categ='violencias'){ echo('violencias');}  
+                if($categ='hoja'){ echo('hoja');}
+                else if($categ='aplicacion'){ echo('aplicacion');} 
+                else if($categ='jurisprudencia'){ echo('jurisprudencia');} 
+                else if($categ='normativa'){ echo('normativa');} 
+                else if($categ='actualidad'){ echo('actualidad');} 
              ?>">
               <h4 class="card-title mb-3 d-block"><?php the_title(); ?></h4>
               <div class="d-flex align-items-center justify-content-between">
@@ -144,37 +113,7 @@
             </div>
           </a>					
         </div>
-    <!-- /CARD --><!-- CARD -->
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 px-xl-4">
-				<?php $categories = get_the_category(); 
-        $categ; 
-        $categName;
-        if ($categories) {
-          foreach($categories as $cat) {
-            $categName = $cat->name;
-            $categ = $cat->slug;
-          }
-        }
-        ?>
-          <a href="<?php the_permalink()?>" target="blank" class="card" style="background-image:url('<?php the_field('foto') ?>'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
-            <div class="card-body <?php 
-                if($categ='salud'){ echo('salud');}
-                else if($categ='identificacion'){ echo('identificacion');} 
-                else if($categ='reparacion'){ echo('reparacion');} 
-                else if($categ='participacion'){ echo('participacion');} 
-                else if($categ='datos'){ echo('datos');} 
-                else if($categ='violencias'){ echo('violencias');}  
-             ?>">
-              <h4 class="card-title mb-3 d-block"><?php the_title(); ?></h4>
-              <div class="d-flex align-items-center justify-content-between">
-                <p class="cardTag"><?php
-                echo($categName) ?></p>
-                <p class="cardDate mb-0"><?php the_date(); ?></p>
-              </div>
-            </div>
-          </a>					
-        </div>
-    <!-- /CARD -->
+      <!-- /CARD -->
 		
     <?php endwhile; ?>
         </div>
