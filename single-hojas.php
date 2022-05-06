@@ -58,6 +58,7 @@
 						<div class="border-t-b py-4 px-3">									
 							<p class="mb-3"><strong>Sobre este escrito</strong></p>
 							<ul class="specs">
+                                <li><?php the_field('fecha') ?></li>
 								<li class="duracion">Vas a tardar:<br> <?php echo($tiempo); ?> minutos en leerlo</li>
 								<?php if($lectura_previa_recomendada): ?>
                                 <li class="antes">Antes te conviene leer:

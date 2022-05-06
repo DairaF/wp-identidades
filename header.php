@@ -61,7 +61,7 @@
             .actualidad{border:solid 2px --rosa}
           </style>
   <header id="site-header">
-		<div class="brand"><a href="index.html">fund.ar</a></div>
+		<div class="brand"><a href="/">fund.ar</a></div>
 		<div id="menuArea">
 			<input type="checkbox" id="menuToggle"></input>
 
@@ -104,7 +104,7 @@
 						</a>
 					</li>
 					<li class="menuItemTop ">
-						<a href="https://debatesparlamentarios.fund.ar/test" class="leyLink">
+						<a target="blank" href="https://debatesparlamentarios.fund.ar/ley" class="leyLink">
 							<h4 class="">Ley de identidad de género <br>comentada por especialistas</h4>
 							<h6>Explorá la Ley de Identidad de Género con comentarios en sus aspectos destacados y en los temas que todavía queda camino por recorrer.</h6>
 						</a>

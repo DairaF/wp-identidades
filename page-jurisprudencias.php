@@ -50,6 +50,7 @@
 
             <div class="c-relacionadas">
         <?php
+        $loop = new WP_Query( array('post_type' => 'aplicacion'));
         $ok = false; 
         if ($selectedTag){
             $loop = new WP_Query( array( 

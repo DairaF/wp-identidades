@@ -31,11 +31,12 @@
         $selectedTag = $params; 
 ?>
 <section class="bggradRosa gradAnimado py-5 border-b-b px-xl-5 overHide">
-		<div class="container-fluid  ">
+		<div class="container-fluid ">
 			<div class="row">
 
             <div class="c-relacionadas">
         <?php
+        $loop = new WP_Query( array('post_type' => 'aplicacion'));
         $ok = false; 
         if ($selectedTag){
             $loop = new WP_Query( array( 
@@ -86,11 +87,11 @@
  </div>
 			</div>
 		</div>
-	</section>
+</section>
 			
 
  
-	<section class="bgRosaOsc py-5 border-b-b px-xl-5">
+<section class="bgRosaOsc py-5 border-b-b px-xl-5">
 		<div class="container-fluid  ">
 			<!-- <div class="row">
 				<div class="col-12">
