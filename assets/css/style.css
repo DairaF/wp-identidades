@@ -1202,6 +1202,12 @@ a.adicionales:hover:after {
     -moz-box-shadow: none;
 }
 
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 16px; 
+}
+
+
 @media screen and (max-width: 991px) {	
   .slick-slide {
       margin: 0 15px;
