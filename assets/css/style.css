@@ -399,8 +399,7 @@ input#menuToggle {
   width: 500px; 
   top: 0;
   right: 0;
-  background:#151515;
-}
+ }
 
 .menu label {
   width: 30px;
@@ -518,7 +517,8 @@ input#menuToggle {
 	.menu {
      width: 100%; 
 		 min-height:100vh;
-}
+		background:#151515;
+	}
 }
 
 
@@ -1201,6 +1201,12 @@ a.adicionales:hover:after {
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
 }
+
+.slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 16px; 
+}
+
 
 @media screen and (max-width: 991px) {	
   .slick-slide {
