@@ -58,8 +58,8 @@
 						<?php foreach ($keys as $key){ ?>
 							<!-- #tab -->						
 							<h3 class="d_active tab_drawer_heading" rel="n<?php echo($key) ?>"><?php echo($key) ?></h3>						
-							<div class="">
-								<h3 id="n<?php echo($key) ?>" class="d-none d-md-block lila mb-4"><strong><?php echo($key) ?></strong></h3>							
+							<div id="n<?php echo($key) ?>" class="">
+								<h3 class="d-none d-md-block lila mb-4"><strong><?php echo($key) ?></strong></h3>							
 								<?php foreach ($years[$key] as $normativa){ ?>
 								<div class="post">
 									<?php
@@ -70,7 +70,7 @@
 									?>
 									<h6 class="lila"><?php echo($normativa['date']); ?></h6>
 									<h4 class="lilaOsc"><?php echo($normativa['title']); ?></h4>
-									<a class="blanco seeMore" href="<?php the_field('link') ?>" target='_blank'> Ver Norma</a>
+									<a class="blanco seeMore" href="<?php the:field('link') ?>" target='_blank'> Ver Norma</a>
 									<?php if($largo >= 1000){ ?>
 									<p id="crop<?php echo $con ?>" class="blanco"><?php echo $cropped ?></p>
 									<a class="blanco seeMore" onClick="this.style.display = 'none'; 
