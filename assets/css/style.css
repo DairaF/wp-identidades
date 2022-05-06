@@ -399,8 +399,7 @@ input#menuToggle {
   width: 500px; 
   top: 0;
   right: 0;
-  background:#151515;
-}
+ }
 
 .menu label {
   width: 30px;
@@ -518,7 +517,8 @@ input#menuToggle {
 	.menu {
      width: 100%; 
 		 min-height:100vh;
-}
+		background:#151515;
+	}
 }
 
 
