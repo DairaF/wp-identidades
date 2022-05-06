@@ -12,75 +12,10 @@
 
 					</div>
 				</div>
-				<div class="row justify-content-lg-center">
-					<div class="col-12 col-lg-10 col-xl-8 pb-5">	
-						<form action="">
- 							<div class="buscar-group">
-								<input type="text" class="form-control formBuscar" placeholder="Buscar">
-									<button class="btnBuscar" type="button">
-										<i class="fa fa-search"></i>
-									</button>
-							</div>
-						</form>	
-					</div>
-				</div>
       </div>
 			
 	</section>
-	<!--------------- DE TAGS ------------------------------>		
-<?php  
-        $url=$_SERVER['REQUEST_URI'];
-        $url_components = parse_url($url);
-        parse_str($url_components['query'], $params);
-        $selectedTag = $params; 
-?>
-<section class="bgGris gradAnimado py-5 border-b-b px-xl-5 overHide">
-		<div class="container-fluid  ">
-			<div class="row">
-
-            <div class="c-relacionadas">
-        <?php
-        $ok = false; 
-		$loop = new WP_Query( array( 
-			'post_type' => 'glosario', ));
-        if ($selectedTag){
-            $loop = new WP_Query( array( 
-                    'post_type' => 'glosario',
-                    'tag' => $selectedTag,
-                    'orderby' => 'tag', 
-                    'order' => 'ASC'
-                    ) ); 
-            $ok=true;
-          }
-          else if($search){
-            $loop = new WP_Query( array('post_type' => 'glosario'));
-            $ok=true;
-          }
-          if($loop->have_posts() && $ok == true){
-          ?>
-          <div class="col-12">
-            <h2 class="text-left text-lg-center mb-5"><?php foreach ($params as $param) { echo (ucwords($param)); } ?></h2>			
-          </div>
-          <?php
-          }
-          $minTitle = strtolower(get_the_title());
-          $minSearch = strtolower($search);
-          while ( $loop->have_posts() && $ok == true ) : $loop->the_post(); if ($search == null || str_contains($minTitle,$minSearch)): ?>
-			<!-- CARD -->
-			<div class="post">
-				<h4 class="lilaOsc"><?php the_title() ?></h4>
-				<p class="blanco"><?php the_content() ?></p>
-				<!-- <a class="">+ Ver más</a> -->
-			</div>
-			<!-- /CARD -->
-
-    <?php endif; endwhile; ?>
- </div>
-			</div>
-		</div>
-	</section>
-
-
+	
     		<?php $letras = array();
 			$loop = new WP_Query( array( 
 				'post_type' => 'glosario', 

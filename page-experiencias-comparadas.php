@@ -16,7 +16,7 @@
 
 				<!-- CARD -->
         <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 px-xl-4">				
-          <a href="http://identidadesinformadas.fund.ar/identidadesdos/normativas/" class="card card-experiencias" style="background-image:url('uploads/cards/2.jpg'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
+          <a href="http://identidadesinformadas.fund.ar/identidadesdos/normativas/" class="card card-experiencias" style="background-image:url('https://identidadesinformadas.fund.ar/wp-content/uploads/2022/05/annie-spratt-GWCvnsMtiBg-unsplash.jpg'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
             <div class="card-body">
               <h4 class="card-title mb-0 h4 d-block">Normativa</h4>
             </div>
@@ -26,7 +26,7 @@
 				
 				<!-- CARD -->
         <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 px-xl-4">
-          <a href="http://identidadesinformadas.fund.ar/identidadesdos/jurisprudencias/" class="card card-experiencias" style="background-image:url('uploads/cards/1.jpg'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
+          <a href="http://identidadesinformadas.fund.ar/identidadesdos/jurisprudencias/" class="card card-experiencias" style="background-image:url('https://identidadesinformadas.fund.ar/wp-content/uploads/2022/05/jurisprudencia.jpg'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
             <div class="card-body">
               <h4 class="card-title mb-0 h4 d-block">Jurisprudencia</h4>
             </div>
@@ -36,9 +36,9 @@
 				
 				<!-- CARD -->
         <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 px-xl-4">				
-          <a href="http://identidadesinformadas.fund.ar/identidadesdos/aplicaciones-exitosas/" class="card card-experiencias" style="background-image:url('uploads/cards/2.jpg'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
+          <a href="http://identidadesinformadas.fund.ar/identidadesdos/aplicaciones-exitosas/" class="card card-experiencias" style="background-image:url('https://identidadesinformadas.fund.ar/wp-content/uploads/2022/05/aplicaciones.jpg'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
             <div class="card-body">
-              <h4 class="card-title mb-0 h4 d-block">Aplicaciones exitosas</h4>
+              <h4 class="card-title mb-0 h4 d-block">Aplicaciones</h4>
             </div>
           </a>					
         </div>

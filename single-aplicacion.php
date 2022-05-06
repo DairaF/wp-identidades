@@ -24,7 +24,7 @@ $abstract = get_post_meta( get_the_ID(), 'abstract', true);
                           foreach($posttags as $tag) {
                             $name = $tag->name . '';
                             array_push($names, $name);
-                            echo('<li class="tag"><a href="" class="active">'.$name.'</a></li>');
+                            echo('<li class="tag"><a href="" class="active">'.ucfirst($name).'</a></li>');
                           }
                         }
                         ?>

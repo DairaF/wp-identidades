@@ -6,8 +6,8 @@
 			<div class="container">
 				<div class="row justify-content-lg-center">
 					<div class="col-12 col-lg-10 col-xl-8 pt-4 pt-lg-5">				
- 						<h1 class="text-left text-lg-center">Actualidades</h1>
-						<p class="text-left text-lg-center ">Fallos que avanzan en la garantía de derechos de las personas travestis, trans y no binarias. Selección sobre la base compilada por la Secretaría General de Capacitación y Jurisprudencia del Ministerio Público de la Defensa de la Nación. </p>
+ 						<h1 class="text-left text-lg-center">Actualidad</h1>
+						<p class="text-left text-lg-center ">Noticias, novedades y notas relacionadas con el acceso a derechos de la población TTNB.</p>
 					</div>
 				</div>
 				<?php include_once('tags-bar.php'); ?>
@@ -30,7 +30,7 @@
     ?>
     <!-- CARD -->
         <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 px-xl-4">
-          <a href="<?php the_field('link_nota') ?> " class="card" 
+          <a target="_blank" href="<?php the_field('link_nota') ?> " class="card" 
             style="background-image:url('<?php the_field('foto') ?>'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
             <div class="card-body">
               <h4 class="card-title mb-3 d-block"><?php the_title() ?></h4>
@@ -95,7 +95,7 @@
           while ( $loop->have_posts() && $ok == true ) : $loop->the_post(); if ($search == null || str_contains($minTitle,$minSearch)): ?>
     <!-- CARD -->
     <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 px-xl-4">
-          <a href="<?php the_permalink() ?> " target="blank" class="card" 
+          <a href="<?php the_permalink() ?> " target="_blank" class="card" 
             style="background-image:url('<?php the_field('foto') ?>'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
             <div class="card-body">
               <h4 class="card-title mb-3 d-block"><?php the_title() ?></h4>

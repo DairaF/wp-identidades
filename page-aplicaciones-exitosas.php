@@ -13,7 +13,7 @@
 			<div class="container">
 				<div class="row justify-content-lg-center">
 					<div class="col-12 col-lg-10 col-xl-8 pt-4 pt-lg-5">				
- 						<h1 class="text-left text-lg-center">Aplicaciones exitosas</h1>
+ 						<h1 class="text-left text-lg-center">Aplicaciones</h1>
 						<p class="text-left text-lg-center ">Casos concretos de entidades que aplicaron la Ley de Identidad de Género en sus sistemas de información.</p>
 
 					</div>
@@ -26,12 +26,12 @@
  
 	<section class="bgRosaOsc py-5 border-b-b px-xl-5">
 		<div class="container-fluid  ">
-			<div class="row">
+			<!-- <div class="row">
 				<div class="col-12">
 					<h2 class="text-left text-lg-center mb-5">Últimas Aplicaciones</h2>			
 				</div>
-			</div>
-			<div class="row justify-content-center"> 
+			</div> -->
+		<div class="row justify-content-center"> 
     <!-- ULTIMAS -->
     <?php 
     $loop = new WP_Query( array( 'post_type' => 'aplicacion',  'orderby'=> 'post_date' ) ); 

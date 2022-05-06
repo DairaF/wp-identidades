@@ -22,7 +22,7 @@
                           foreach($posttags as $tag) {
                             $name = $tag->name . '';
                             array_push($names, $name);
-                            echo('<li class="tag"><a href="" class="active">'.$name.'</a></li>');
+                            echo('<li class="tag"><a href="" class="active">'.ucfirst($name).'</a></li>');
                           }
                         }
                         ?>
@@ -171,6 +171,7 @@
         const ul = document.getElementById('menuSub');
         const func = () => {
             for (let i = 0; i < hs.length; i++){
+                if(hs[i].innerText!="Abstract"){
                 hs[i].id = "h3n"+i;
                 var li = document.createElement("li");
                 var aTag = document.createElement('a');
@@ -178,6 +179,7 @@
                 aTag.innerText = hs[i].innerText;
                 li.appendChild(aTag)
                 ul.appendChild(li);
+                }
             }
         }
         func();
