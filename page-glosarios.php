@@ -19,7 +19,7 @@
     		<?php $letras = array();
 			$loop = new WP_Query( array( 
 				'post_type' => 'glosario', 
-				'posts_per_page' => 10 ,
+				'posts_per_page' => 1000 ,
 				'orderby' => 'letra',
 				'order'   => 'ASC',
 				) );

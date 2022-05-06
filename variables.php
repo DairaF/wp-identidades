@@ -5,7 +5,8 @@ $loop = new WP_Query( array(
     'post_type' => array('post','post'), 
     
     'tag' => 'tag',
-    'orderby' => 'meta_value_num',
+    'posts_per_page' => 1000 ,
+				'orderby' => 'meta_value_num',
     'order' => 'DESC'
 ) ); 
 

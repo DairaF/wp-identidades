@@ -42,7 +42,7 @@
 <body onresize="placeComment('mark1', 'comment1')" >
   
 	<header id="site-header">
-		<div class="brand"><a href="index.html">fund.ar</a></div>
+		<div class="brand"><a href="https://www.fund.ar/" target="_blank">fund.ar</a></div>
   </header>
 	
    <div class="intro">
@@ -50,9 +50,8 @@
 			<div class="row">
 				<div class="col-12">
 					<h1>Ley 26.743 de Identidad de Género<i>comentada</i></h1>
-				<p>Explor&aacute; a fondo la ley de la mano de comentarios de Ameleo y Alumin&eacute;, integrantes del equipo de G&eacute;neros de Fundar, sobre sus aspectos destacados as&iacute; como los temas en los que resta camino por recorrer para su aplicaci&oacute;n integral.</p>
-<p>La ley es un gran avance en el reconocimiento de derechos. Fue aprobada en el a&ntilde;o 2012 y redactada en base a los aportes te&oacute;ricos y pol&iacute;ticos del movimiento travesti, transexual, transg&eacute;nero y no binario de Argentina. Reconoce la autonom&iacute;a de las personas en la definici&oacute;n de su identidad de g&eacute;nero, establece que es esencial para proteger la dignidad, provee herramientas para asegurar que los documentos de identidad reflejan la propia identidad de g&eacute;nero y garantiza el acceso a salud integral.&nbsp;</p>
-<p>Como destaca el abogado y activista I&ntilde;aki Regueiro De Giacomi, la ley fue impulsada y redactada por organizaciones argentinas de personas TTT, quienes estuvieron involucradas en la toma de decisiones relativas a sus propios intereses, derechos y vidas. Tambi&eacute;n es un ejemplo de construcci&oacute;n transversal entre organizaciones, ya que partiendo de proyectos de ley diversos se arrib&oacute; a un texto de consenso y con gran legitimidad a nivel nacional e internacional. A su vez, la ley tiene una particular relevancia en Argentina, donde el derecho a la identidad como categor&iacute;a pol&iacute;tica fue concebido por organizaciones de derechos humanos que luchan contra el terrorismo de Estado y retomado por el movimiento travesti-trans.</p>
+				<p>La ley es un gran avance en el reconocimiento de derechos. Fue aprobada en el año 2012 y redactada en base a los aportes teóricos y políticos del movimiento travesti, transexual, transgénero y no binario de Argentina. Reconoce la autonomía de las personas en la definición de su identidad de género, establece que es esencial para proteger la dignidad, provee herramientas para asegurar que los documentos de identidad reflejan la propia identidad de género y garantiza el acceso a salud integral. </p>
+<p>Los comentarios de Ameleo Botto y Aluminé Moreno, integrantes del Área de Géneros de Fundar, destacan los principales aportes de la ley así como los temas en los que aún resta camino por recorrer para su aplicación integral.</p>
 				</div>
 			</div>
 		</div>
@@ -200,177 +199,213 @@
 			
 			
         <div data-autor="fundar" class="comentario c1 ">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Este artículo establece las tres dimensiones de la identidad de género que resguarda esta ley.</p>
         </div>
       
 				<div data-autor="fundar" class="comentario c2">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+				
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>¡Atención! Todas las personas tenemos identidad de género pero no todas las identidades son valoradas y reconocidas de la misma forma.</p>
         </div>
         
         <div data-autor="fundar" class="comentario c3">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Se relaciona con la dignidad de las personas.</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c4">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>→ Se amplía en Artículo 12.</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c5">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
 						<p>Retomada de los Principios de Yogyakarta, un documento sobre estándares legales internacionales que los Estados deben respetar en cuestiones relativas a orientación sexual, identidad de género y características sexuales. Consultalos con un click <a href="http://yogyakartaprinciples.org/principles-sp/" target="_blank">aqu&iacute;</a>.&nbsp;📂📌</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c6">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>La autoridad es la propia persona. No precisa validación externa.</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c7">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>🌈📣 En el marco de la ley todas las identidades corresponden. El derecho a la libertad de expresión y de autodeterminación es el núcleo central de la lucha de los movimientos de las diversidades que dieron lugar a la sanción.</p>
         </div>
 
         <div data-autor="fundar" class="comentario c8">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
 						<p>El campo en el DNI solo admite: F / M / X. Pero entre partidas de nacimiento hay más opciones registradas. Podés consultar <a href="" target="_blank"><strong>Jurisprudencia</strong></a> para encontrar algunos casos. 📂📌</p>
         </div>
         
 				<div data-autor="fundar" class="comentario c9">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Tener presente que sexo y género no son lo mismo. Las identidades de género son diversas, tienen matices y exceden las categorías registrales del DNI.</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c10">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>❤️‍🔥  lo que nos diferencia en el mundo, Derechos Humanos. Hay países que siguen este modelo que inauguró Argentina.</p>
         </div>
 								
         <div data-autor="fundar" class="comentario c11">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p> Las solicitudes de las niñeces y adolescencias deben ser atendidas en base a una interpretación respetuosa de los estándares constitucionales y convencionales, y armónica con el Código Civil y Comercial de la Nación. Sobre el tema, podés consultar   <strong><a href="http://servicios.infoleg.gob.ar/infolegInternet/anexos/255000-259999/257649/norma.htm" target="_blank">aqu&iacute;</a></strong>&nbsp;una resolución del Ministerio de Salud. 📂📌</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c12">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>El nuevo Código Civil establece la capacidad progresiva de las infancias.</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c13">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Mejor hablar en términos de niñes o niñeces.</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c14">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>el/la/le</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c15">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>❤️‍🔥 Anteriormente era necesaria la autorización judicial.</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c16">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Muy importante para remover barreras.</p>
         </div>				
        
 				<div data-autor="fundar" class="comentario c17">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Ninguna gestión o necesidad de representación profesional.</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c18">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Priorizar el DNI en lugar del nombre podría cambiar la inercia de la cultura organizacional. Si bien citar/llamar a las personas por su DNI puede ser impracticable, nos da una pista de buenas prácticas.</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c19">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>La judicialización representa una barrera. <br> Podés consultar la Hoja informativa 3 para profundizar haciendo click aquí! 📂📌</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c20">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Se asegura la confidencialidad, fundamental para la protección de datos sensibles. El control de la información es de quien es titular de los datos.</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c21">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>del/la/le</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c22">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Si te interesa profundizar sobre el sistema de identificación argentino podés consultar la Hoja informativa 3 haciendo click aquí! 📂📌</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c23">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>¡Atención! Implica acceso a la salud integral.</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c24">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Vale el mismo comentario que para el Artículo 5 respecto de la atención de solicitudes de niñeces y adolescencias, que deben atenderse respetando estándares constitucionales y convencionales, y en armonía con el Código Civil y Comercial de la Nación.</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c25">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Si busc&aacute;s ampliar informaci&oacute;n, pod&eacute;s hacer click <strong><a href="https://bancos.salud.gob.ar/sites/default/files/2020-10/guia-salud-personas-trans-travestis-nobinarias.pdf" target="_blank">aqu&iacute;</a></strong>&nbsp;para consultar una gu&iacute;a para equipos de salud publicada por el Ministerio de Salud de la Naci&oacute;n.&nbsp;📂📌</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c26">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>El acceso a estas prácticas en el sistema de salud previene que se lleven a cabo en ámbitos clandestinos e inseguros donde entra en riesgo la salud y la vida de personas trans, travestis y no binarias.</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c27">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Consultar <strong><a href="https://bancos.salud.gob.ar/sites/default/files/2021-06/2021-06-24-recomendaciones-para-la-atencion-integral-de-la-salud-de-nineces-adolescencias-ttnb.pdf" target="_blank">aqu&iacute;</a></strong>&nbsp;las recomendaciones del Ministerio de Salud de la Naci&oacute;n para una atenci&oacute;n integral de la salud de ni&ntilde;eces y adolescencias TTNB.  📂📌</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c28">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Hace falta mucho trabajo para asegurar el acceso a las prestaciones y al trato digno en todos los servicios de salud, tanto públicos como privados. Los incumplimientos obligan a las personas a presentar amparos, notas, enfrentar demoras, entre otras barreras.</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c29">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p><strong>Fundamental</strong>&nbsp;para pasar de la declamaci&oacute;n formal de derechos a la igualdad vivida.&nbsp;Pod&eacute;s consultar la Hoja informativa 2 para profundizar haciendo click&nbsp;<strong>aqu&iacute;</strong>!&nbsp;📂📌</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c30">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>A modo de ejemplo, este material del Centro de Justicia de la Mujer ofrece pautas para una atención respetuosa de la identidad y expresión de género de las personas. Consultalo con un click <strong><a href="https://www.cjmujer.gob.ar/guia-de-trato-digno-para-una-atencion-respetuosa-de-la-identidad-de-genero/" target="_blank">aqu&iacute;</a></strong>.&nbsp;📂📌</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c31">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Resulta fundamental promover el conocimiento de este derecho en la atención al público, en ámbitos privados y públicos.</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c32">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>¡Ojo! El trato digno debe asegurarse más allá del cambio documental o registral.</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c33">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Y pronombres también.</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c34">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Aclara las dudas respecto a las interpretaciones de los artículos anteriores y su implementación. Interpretación a favor de las personas.</p>
         </div>
 				
         <div data-autor="fundar" class="comentario c35">
-            <div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+						<button class="cierra-comentario"></button>
+            <div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Ante normativa poco clara o contradictoria, el principio de interpretación que debe prevalecer es a favor de la aplicación de la norma que garantice los derechos de la persona y mejor resguarde su identidad de género.</p>
         </div>
 				
@@ -395,177 +430,177 @@
             <div class="slider">
 								 
  <a href="#c1" data-autor="fundar" class="c1 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Este artículo establece las tres dimensiones de la identidad de género que resguarda esta ley.</p>
 </a> 		
 	
 <a href="#c2" data-autor="fundar" class="c2 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>¡Atención! Todas las personas tenemos identidad de género pero no todas las identidades son valoradas y reconocidas de la misma forma.</p>
 </a> 			
 
 <a href="#c3" data-autor="fundar" class="c3 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Se relaciona con la dignidad de las personas.</p>
 </a> 				
 
 <a href="#c4" data-autor="fundar" class="c4 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>→ Se amplía en Artículo 12.</p>
 </a> 	
 
 <a href="#c5" data-autor="fundar" class="c5 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
 		<p>Retomada de los Principios de Yogyakarta, un documento sobre estándares legales internacionales que los Estados deben respetar en cuestiones relativas a orientación sexual, identidad de género y características sexuales. Consultalos con un click <span onClick="parent.open('http://yogyakartaprinciples.org/principles-sp/')" ><strong>aqu&iacute;</strong></span>.&nbsp;📂📌</p>
  </a> 		
 
 <a href="#c6" data-autor="fundar" class="c6 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>La autoridad es la propia persona. No precisa validación externa.</p>
 </a> 		
 
 <a href="#c7" data-autor="fundar" class="c7 slide">
-	<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+	<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>🌈📣 En el marco de la ley todas las identidades corresponden. El derecho a la libertad de expresión y de autodeterminación es el núcleo central de la lucha de los movimientos de las diversidades que dieron lugar a la sanción.</p>
 </a> 
 
 <a href="#c8" data-autor="fundar" class="c8 slide">
-	<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+	<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
 						<p>El campo en el DNI solo admite: F / M / X. Pero entre partidas de nacimiento hay más opciones registradas. Podés consultar <span onClick="parent.open('')" ><strong>Jurisprudencia</strong></span> para encontrar algunos casos. 📂📌</p>
 </a> 						
 
 <a href="#c9" data-autor="fundar" class="c9 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Tener presente que sexo y género no son lo mismo. Las identidades de género son diversas, tienen matices y exceden las categorías registrales del DNI.</p>
 </a> 
 
 <a href="#c10" data-autor="fundar" class="c10 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>❤️‍🔥  lo que nos diferencia en el mundo, Derechos Humanos. Hay países que siguen este modelo que inauguró Argentina.</p>
 </a> 
 
 <a href="#c11" data-autor="fundar" class="c11 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p> Las solicitudes de las niñeces y adolescencias deben ser atendidas en base a una interpretación respetuosa de los estándares constitucionales y convencionales, y armónica con el Código Civil y Comercial de la Nación. Sobre el tema, podés consultar   <strong><span onClick="parent.open('http://servicios.infoleg.gob.ar/infolegInternet/anexos/255000-259999/257649/norma.htm')" >aqu&iacute;</span></strong>&nbsp;una resolución del Ministerio de Salud. 📂📌</p>
 </a> 
 
 <a href="#c12" data-autor="fundar" class="c12 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>El nuevo Código Civil establece la capacidad progresiva de las infancias.</p>
 </a> 
 
 <a href="#c13" data-autor="fundar" class="c13 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Mejor hablar en términos de niñes o niñeces.</p>
 </a> 
 
 <a href="#c14" data-autor="fundar" class="c14 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>el/la/le</p>
 </a> 
 
 <a href="#c15" data-autor="fundar" class="c15 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>❤️‍🔥 Anteriormente era necesaria la autorización judicial.</p>
 </a> 
 
 <a href="#c16" data-autor="fundar" class="c16 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Muy importante para remover barreras.</p>
 </a> 
 
 <a href="#c17" data-autor="fundar" class="c17 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Ninguna gestión o necesidad de representación profesional.</p>
 </a> 
 
 <a href="#c18" data-autor="fundar" class="c18 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Priorizar el DNI en lugar del nombre podría cambiar la inercia de la cultura organizacional. Si bien citar/llamar a las personas por su DNI puede ser impracticable, nos da una pista de buenas prácticas.</p>
 </a>
 
 <a href="#c19" data-autor="fundar" class="c19 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>La judicialización representa una barrera. <br> Podés consultar la Hoja informativa 3 para profundizar haciendo click aquí! 📂📌</p>
 </a>
 
 <a href="#c20" data-autor="fundar" class="c20 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Se asegura la confidencialidad, fundamental para la protección de datos sensibles. El control de la información es de quien es titular de los datos.</p>
 </a> 
 
 <a href="#c21" data-autor="fundar" class="c21 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>del/la/le</p>
 </a>  
 
 <a href="#c22" data-autor="fundar" class="c22 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Si te interesa profundizar sobre el sistema de identificación argentino podés consultar la Hoja informativa 3 haciendo click aquí! 📂📌</p>
 </a> 
 
 <a href="#c23" data-autor="fundar" class="c23 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>¡Atención! Implica acceso a la salud integral.</p>
 </a>
 
 <a href="#c24" data-autor="fundar" class="c24 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Vale el mismo comentario que para el Artículo 5 respecto de la atención de solicitudes de niñeces y adolescencias, que deben atenderse respetando estándares constitucionales y convencionales, y en armonía con el Código Civil y Comercial de la Nación.</p>
 </a> 
 
 <a href="#c25" data-autor="fundar" class="c25 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Si busc&aacute;s ampliar informaci&oacute;n, pod&eacute;s hacer click <strong><span onClick="parent.open('https://bancos.salud.gob.ar/sites/default/files/2020-10/guia-salud-personas-trans-travestis-nobinarias.pdf')" >aqu&iacute;</span></strong>&nbsp;para consultar una gu&iacute;a para equipos de salud publicada por el Ministerio de Salud de la Naci&oacute;n.&nbsp;📂📌</p>
 </a> 
 
 <a href="#c26" data-autor="fundar" class="c26 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>El acceso a estas prácticas en el sistema de salud previene que se lleven a cabo en ámbitos clandestinos e inseguros donde entra en riesgo la salud y la vida de personas trans, travestis y no binarias.</p>
 </a> 
 
 <a href="#c27" data-autor="fundar" class="c27 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Consultar <strong><span onClick="parent.open('https://bancos.salud.gob.ar/sites/default/files/2021-06/2021-06-24-recomendaciones-para-la-atencion-integral-de-la-salud-de-nineces-adolescencias-ttnb.pdf')" >aqu&iacute;</span></strong>&nbsp;las recomendaciones del Ministerio de Salud de la Naci&oacute;n para una atenci&oacute;n integral de la salud de ni&ntilde;eces y adolescencias TTNB.  📂📌</p>
 </a>
 
 <a href="#c28" data-autor="fundar" class="c28 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Hace falta mucho trabajo para asegurar el acceso a las prestaciones y al trato digno en todos los servicios de salud, tanto públicos como privados. Los incumplimientos obligan a las personas a presentar amparos, notas, enfrentar demoras, entre otras barreras.</p>
 </a> 
 
 <a href="#c29" data-autor="fundar" class="c29 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p><strong>Fundamental</strong>&nbsp;para pasar de la declamaci&oacute;n formal de derechos a la igualdad vivida.&nbsp;Pod&eacute;s consultar la Hoja informativa 2 para profundizar haciendo click&nbsp;<strong>aqu&iacute;</strong>!&nbsp;📂📌</p>
 </a> 
 
 <a href="#c30" data-autor="fundar" class="c30 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>A modo de ejemplo, este material del Centro de Justicia de la Mujer ofrece pautas para una atención respetuosa de la identidad y expresión de género de las personas. Consultalo con un click <strong><span onClick="parent.open('https://www.cjmujer.gob.ar/guia-de-trato-digno-para-una-atencion-respetuosa-de-la-identidad-de-genero/')" >aqu&iacute;</span></strong>.&nbsp;📂📌</p>
 </a>
 
 <a href="#c31" data-autor="fundar" class="c31 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Resulta fundamental promover el conocimiento de este derecho en la atención al público, en ámbitos privados y públicos.</p>
 </a> 
 
 <a href="#c32" data-autor="fundar" class="c32 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>¡Ojo! El trato digno debe asegurarse más allá del cambio documental o registral.</p>
 </a> 
 
 <a href="#c33" data-autor="fundar" class="c32 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Y pronombres también.</p>
 </a> 
 
 <a href="#c34" data-autor="fundar" class="c34 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Aclara las dudas respecto a las interpretaciones de los artículos anteriores y su implementación. Interpretación a favor de las personas.</p>
 </a> 
 
 <a href="#c35" data-autor="fundar" class="c35 slide">
-		<div class="autor-name"><div class="icon">F</div> <span>Fundar</span></div>
+		<div class="autor-name"><div class="icon"><img src="img/fundar.png" class="w-100"/></div> <span>Fundar</span></div>
             <p>Ante normativa poco clara o contradictoria, el principio de interpretación que debe prevalecer es a favor de la aplicación de la norma que garantice los derechos de la persona y mejor resguarde su identidad de género.</p>
 </a> 
 								

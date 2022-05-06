@@ -55,7 +55,8 @@
             $loop = new WP_Query( array( 
                     'post_type' => 'jurisprudencia',
                     'tag' => $selectedTag,
-                    'orderby' => 'tag', 
+                    'posts_per_page' => 1000 ,
+				'orderby' => 'tag', 
                     'order' => 'ASC'
                     ) ); 
             $ok=true;
@@ -103,7 +104,8 @@
 	<section class="bgRosaOsc py-5 border-b-b px-xl-5">
     <!-- ULTIMAS -->
     <?php 
-    $loop = new WP_Query( array( 'post_type' => 'jurisprudencia',  'orderby'=> 'post_date' ) ); 
+    $loop = new WP_Query( array( 'post_type' => 'jurisprudencia',  'posts_per_page' => 1000 ,
+				'orderby'=> 'post_date' ) ); 
 
     while ( $loop->have_posts() ) : $loop->the_post();
     ?>

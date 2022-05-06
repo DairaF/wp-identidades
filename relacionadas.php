@@ -10,9 +10,10 @@
     $selectedTag = $slugs;
     $loop = new WP_Query( array( 
               'post_type' => array('actualidad','normativa','jurisprudencia','aplicacion'), 
-                'posts_per_page' => 10 ,
+                
                 'tag' => $selectedTag,
-                'orderby' => 'tag', 
+                'posts_per_page' => 1000 ,
+				'orderby' => 'tag', 
                 'order' => 'ASC'
                 ) ); 
 

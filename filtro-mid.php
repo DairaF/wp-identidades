@@ -16,7 +16,8 @@
             $loop = new WP_Query( array( 
                     'post_type' => $tipoPost,
                     'tag' => $selectedTag,
-                    'orderby' => 'tag', 
+                    'posts_per_page' => 1000 ,
+				'orderby' => 'tag', 
                     'order' => 'ASC'
                     ) ); 
             $ok=true;

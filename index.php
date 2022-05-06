@@ -36,10 +36,7 @@
 				</div>
 				<div class="row justify-content-lg-center">
 					<div class="col-12 col-lg-8 col-xl-6 pt-4 pt-lg-5">				
-						<p class="text-left text-lg-center ">Una plataforma informativa sobre la Ley de Identidad de Género, con material clave para planificar y diseñar políticas públicas que avancen en la conquista de derechos para las personas trans, travestis y no binarias. 
-            </p><p class="text-left text-lg-center ">
-            Iniciativa que se propone aportar a su visibilidad, como también recuperar sus demandas y sus luchas políticas por la identidad como derecho humano. 
-            </p>
+						<p class="text-left text-lg-center ">Una plataforma informativa sobre la Ley de Identidad de Género, con material clave para planificar y diseñar políticas públicas que avancen en la conquista de derechos para las personas trans, travestis y no binarias. La iniciativa nace con el objetivo de recuperar sus demandas y sus luchas por la identidad como derecho humano.            </p>
 					</div>
 				</div>
 				<div class="row justify-content-lg-center">	
@@ -71,9 +68,10 @@
     $selectedTag = $params;
     $loop = new WP_Query( array( 
               'post_type' => array('actualidad','normativa','jurisprudencia','aplicacion'), 
-                'posts_per_page' => 10 ,
+                
                 'tag' => $selectedTag,
-                'orderby' => 'tag', 
+                'posts_per_page' => 1000 ,
+				'orderby' => 'tag', 
                 'order' => 'ASC'
                 ) ); 
 

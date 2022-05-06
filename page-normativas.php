@@ -39,7 +39,8 @@
             $loop = new WP_Query( array( 
                     'post_type' => 'normativa',
                     'tag' => $selectedTag,
-                    'orderby' => 'tag', 
+                    'posts_per_page' => 1000 ,
+				'orderby' => 'tag', 
                     'order' => 'ASC'
                     ) ); 
             $ok=true;
@@ -80,9 +81,10 @@
 		$years = array();
 		$loop = new WP_Query( array( 
 			'post_type' => 'normativa', 
-			'posts_per_page' => 10 ,
+			
 			'meta_key'  => 'fecha_normativa',
-			'orderby'   => 'meta_value_num',
+			'posts_per_page' => 1000 ,
+				'orderby'   => 'meta_value_num',
 			'order'     => 'DESC',
 			) ); 
 			while( $loop->have_posts() ) {
