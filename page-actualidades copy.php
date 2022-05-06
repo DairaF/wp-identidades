@@ -103,7 +103,7 @@
           $minSearch = strtolower($search);
           while ( $loop->have_posts() && $ok == true ) : $loop->the_post(); if ($search == null || str_contains($minTitle,$minSearch)): ?>
     <!-- CARD -->
-    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 px-xl-4">
+    <div class="">
         <a target="blank" href="<?php $link_nota = get_post_meta( get_the_ID(), 'link_nota', true); echo($link_nota); ?> " class="card" 
           style="background-image:url('<?php the_field('foto') ?>'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
           <div class="card-body">

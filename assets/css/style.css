@@ -1021,6 +1021,7 @@ p.excerpt{
 .excerpt{
   max-height: 8em !important;
     overflow: hidden;
+	margin-bottom:10px;	
 }
 
 .excerpt p{

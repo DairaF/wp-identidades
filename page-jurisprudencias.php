@@ -77,7 +77,7 @@
           $minSearch = strtolower($search);
           while ( $loop->have_posts() && $ok == true ) : $loop->the_post(); if ($search == null || str_contains($minTitle,$minSearch)): ?>
     <!-- CARD -->
-    <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 px-xl-4">
+    <div class="">
           <a href="<?php the_permalink() ?> " target="blank" class="card" 
             style="background-image:url('<?php the_field('foto') ?>'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
             <div class="card-body">
@@ -103,6 +103,8 @@
 		</div>
 	</section>
 	<section class="bgRosaOsc py-5 border-b-b px-xl-5">
+		<div class="container-fluid">
+		<div class="row">
     <!-- ULTIMAS -->
     <?php 
     $loop = new WP_Query( array( 'post_type' => 'jurisprudencia',  'posts_per_page' => 1000 ,

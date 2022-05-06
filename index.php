@@ -83,7 +83,7 @@
         <?php while ( $loop->have_posts() ) : $loop->the_post(); 
       ?>
       <!-- CARD -->
-        <div class="col-12 col-md-6 col-lg-4 col-xl-3 mb-4 px-xl-4">
+        <div class="">
           <?php $categories = get_the_category(); 
             $categ; 
             $categName;

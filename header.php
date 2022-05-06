@@ -54,11 +54,11 @@
 
   <body onload="tagsActive()" <?php body_class(); ?>>
   <style>
-            .hoja{border:solid 2px --celesteOsc}
-            .aplicacion{border:solid 2px --lilaOsc}
-            .jurisprudencia{border:solid 2px --lilaOsc}
-            .normativa{border:solid 2px --lilaOsc}
-            .actualidad{border:solid 2px --rosa}
+            .hoja{border:solid 2px var(--celesteOsc)}
+            .aplicacion{border:solid 2px var(--lilaOsc)}
+            .jurisprudencia{border:solid 2px var(--lilaOsc)}
+            .normativa{border:solid 2px var(--lilaOsc)}
+            .actualidad{border:solid 2px var(--rosa)}
           </style>
   <header id="site-header">
 		<div class="brand"><a href="/">fund.ar</a></div>
