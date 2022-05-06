@@ -44,24 +44,29 @@
 				<!--  -->
         		<div class="col-12 col-lg-3 col-xl-2 d-none d-lg-block">				
 					<ul class="tabs tabs_dark"> 
-						<?php foreach ($keys as $key){ ?>
-							<li rel="n<?php echo($key) ?>" href="#n<?php echo($key) ?>"><?php echo($key) ?></li>
+						<?php $i=0; foreach ($keys as $key){ $i++; ?>
+							
+							<li rel="tab<?php echo($i); ?>" href="#tab<?php echo($i); ?>"><?php echo($key) ?></li>
 						<?php } ?>
 					</ul>
         		</div>
 				<!-- / --> 
 
-				<!--  -->
-        		<div class="col-12 col-lg-9 col-xl-9 offset-xl-1  px-0 px-lg-3 mx-0 mx-lg-3">
+
+
+
+
+<!--  -->
+<div class="col-12 col-lg-9 col-xl-9 offset-xl-1  px-0 px-lg-3 mx-0 mx-lg-3">
 					
-						<div class="tab_container tabs_dark">
-						<?php foreach ($keys as $key){ ?>
+					<div class="tab_container tabs_dark">
+						<?php $i=0; foreach ($keys as $key){ $i++; ?>
 							<!-- #tab -->						
-							<h3 class="d_active tab_drawer_heading" rel="n<?php echo($key) ?>"><?php echo($key) ?></h3>						
-							<div class="">
-								<h3 id="n<?php echo($key) ?>" class="d-none d-md-block lila mb-4"><strong><?php echo($key) ?></strong></h3>							
+							<h3 class="d_active tab_drawer_heading" rel="tab<?php echo($i); ?>"><?php echo($key) ?></h3>						
+							<div id="tab<?php echo($i); ?>" class="tab_content">
+								<h3 class="d-none d-md-block lila mb-4"><strong><?php echo($key) ?></strong></h3>							
 								<?php foreach ($years[$key] as $normativa){ ?>
-								<div class="post">
+								<div class="post" >
 									<?php
 										$con++;
 										$content = $normativa['content'];
@@ -87,8 +92,8 @@
 								<?php }?>
 							</div>
 						<!-- .tab_container -->
-					<?php } ?>
-						</div>
+						<?php } ?>
+					</div>
         		</div>
 				<!-- /CARD -->
 			</div>
