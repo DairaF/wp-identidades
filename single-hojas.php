@@ -115,7 +115,7 @@
 				<!-- / --> 
 				
         <div class="col-12 col-lg-9 col-xl-8 offset-xl-1  ">
-						<div id=" " class="mt-5 mt-lg-3">
+						<div id=" " class="mt-5 mt-lg-3 content-hoja">
                             <p><?php the_content(); ?></p>
 						</div>
 						

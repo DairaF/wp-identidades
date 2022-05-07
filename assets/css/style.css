@@ -519,6 +519,14 @@ input#menuToggle {
 		 min-height:100vh;
 		background:#151515;
 	}
+	
+
+.menu ul li a h6{
+	font-size:12px;;	
+}
+
+
+	
 }
 
 
@@ -609,6 +617,7 @@ section{
 	border-radius:24px;
 	height:46px;
 	border:2px solid black;
+	    padding-left: 20px;
 }
  .formBuscar:active,
  .formBuscar:focus,
@@ -617,6 +626,28 @@ section{
    -webkit-box-shadow: none;
    box-shadow: none;
  }
+
+.formBuscar::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+		font-family:"aktiv-grotesk-medium";
+	font-size:18px;	
+
+  opacity: 1; /* Firefox */
+}
+
+.formBuscar:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: black;
+		font-family:"aktiv-grotesk-medium";
+		font-size:18px;
+
+}
+
+.formBuscar::-ms-input-placeholder { /* Microsoft Edge */
+  color: black;
+		font-family:"aktiv-grotesk-medium";
+		font-size:18px;
+
+}
  
 .btnBuscar{
 	border:0;
@@ -939,6 +970,12 @@ section{
 
 
 
+@media screen and (max-width:1440px) {
+.menuItem a h6 {
+    font-size: 16px;
+}
+
+}
 @media screen and (max-width: 991px) {
 .navigation-bottom {
 	padding:0px;
@@ -1099,7 +1136,7 @@ ul.autorContainer li.autor:nth-child(2) .autorIcon{
 
 @media screen and (min-width: 992px) and (max-width: 1440px) { 
 .card { 
-	min-height: 400px; 
+	min-height: 380px; 
 }
 }
 
@@ -1537,6 +1574,11 @@ h3.nav-acc.collapsed{
 		background: url("../img/flecha-negra.svg") no-repeat right center ;
     background-size: 30px;
 }  
+
+
+.content-hoja h3 {
+	font-size:28px;
+}
 /*---------------------
  GLOSARIO 
 -----------------------*/

@@ -31,7 +31,7 @@
 					</div> 
 				</div>
 				
-				<div class="row justify-content-center">
+				<div class="row">
                     <?php 
 					$con = 0;
                     $loop = new WP_Query( array( 'post_type' => 'promotor',  'posts_per_page' => 1000 ,
@@ -76,7 +76,7 @@
 			<div class="container">
 				<div class="row">		
 					<div class="col-12 pt-5">		
-						<h2 class="text-left text-lg-center blanco">Realizadores</h2>
+						<h2 class="text-left text-lg-center blanco mb-5">Realizadores</h2>
 					</div> 
 				</div>
 				

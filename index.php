@@ -35,7 +35,7 @@
 					</div>
 				</div>
 				<div class="row justify-content-lg-center">
-					<div class="col-12 col-lg-8 col-xl-6 pt-4 pt-lg-5">				
+					<div class="col-12 col-lg-8 col-xl-7 pt-4 pt-lg-5">				
 						<p class="text-left text-lg-center ">Una plataforma informativa sobre la Ley de Identidad de Género, con material clave para planificar y diseñar políticas públicas que avancen en la conquista de derechos para las personas trans, travestis y no binarias. La iniciativa nace con el objetivo de recuperar sus demandas y sus luchas por la identidad como derecho humano.            </p>
 					</div>
 				</div>
@@ -124,7 +124,7 @@
 			<div class="container">
 				<div class="row">		
 					<div class="col-12 pt-5">		
-					<h2 class="text-left text-lg-center">Explorá a fondo la Ley de Identidad de Género de la mano de <span class="highlight gradiente4">especialistas.</span></h2>
+					<h2 class="text-left text-lg-center">Explorá a fondo la Ley de Identidad de Género <br class="d-none d-lg-block">de la mano de <span class="highlight gradiente4">especialistas.</span></h2>
 					</div>
 					<div class="col-12 py-4 d-none d-lg-block text-center">		
 						<video autoplay loop muted>
