@@ -38,8 +38,7 @@
 		
 		<!-- Custom core CSS -->
 		<link rel="stylesheet" href="/wp-includes/css/fonts.css"> 
-		<link rel="stylesheet" href="/wp-includes/css/style.css"> 
-		<?php wp_head(); ?>
+ 		<?php wp_head(); ?>
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-F2C44LP7W9"></script>
 		<script>
