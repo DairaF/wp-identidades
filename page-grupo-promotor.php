@@ -1,9 +1,9 @@
 <?php get_header(); ?>
-  <section class="bggrad4col intro border-b-b pushBottom">
+  <section class="bgGris intro ">
 			<div class="container">
 				<div class="row">
 					<div class="col-12 pt-5">				
-						<h1 class="text-left text-lg-center">Sobre este proyecto</h1>
+						<h1 class="text-left text-lg-center blanco">Sobre este proyecto</h1>
 					</div>
 				</div> 
       </div>
@@ -13,7 +13,7 @@
 			<div class="container">
 				<div class="row">		
 					<div class="col-12 pt-5">		
-						<h2 class="text-left text-lg-center blanco">¿Quiénes somos?</h2>
+						<h2 class="text-left text-lg-center blanco mb-4">¿Quiénes somos?</h2>
 						<p class="blanco">El proyecto de Identidades Informadas surge para retratar, en experiencias personales, las barreras y obstáculos de personas TTNB para acceder al cambio registral. Marcelo Mangini, Sabina Bercovich y Ameleo Botto comenzaron el proyecto que, a partir de entrevistas con informantes clave y aliades,  dió un paso atrás y buscó difundir conocimiento generado por los movimientos TTNB, activismos, académiques y aliades. 
 						</p><p class="blanco">
 						Creamos Identidades Informadas para poner a disposición contenidos elaborados a partir de conocimientos construidos colectivamente. Creemos que el reconocimiento de la identidad de género de las personas está indisolublemente ligado al respeto de su dignidad, por lo que proponemos este sitio como herramienta para avanzar en la conquista de derechos.
@@ -24,9 +24,9 @@
 						</p>
 					</div> 
 				</div>
-				<div class="row">		
+				<div class="row mb-4">		
 					<div class="col-12 pt-5">		
-						<h2 class="text-left text-lg-center blanco">Grupo Promotor</h2>
+						<h2 class="text-left text-lg-center blanco mb-4">Grupo Promotor</h2>
 						<p class="blanco">El grupo promotor está integrado por activistas y personas aliadas de reconocida trayectoria en el avance de los derechos de las personas travesti, trans y no binarias que orientan y asesoran sobre el proyecto.</p>
 					</div> 
 				</div>

@@ -336,6 +336,7 @@ a, a:hover, a:focus {
 @media screen and (max-width: 991px) {
 #site-header {
 	border-bottom:2px solid #231f20;
+	padding: 15px;
 }
 	
 }
@@ -483,8 +484,7 @@ input#menuToggle {
 
 #menuToggle:checked ~ .menuOpen .open:before {
   content: "";
-  background-color: white;
-  transform: rotate(45deg);
+   transform: rotate(45deg);
   position: absolute;
   top: 0;
   right: 0;
@@ -493,8 +493,7 @@ input#menuToggle {
 
 #menuToggle:checked ~ .menuOpen .open:after {
   content: "";
-  background-color: white;
-  transform: rotate(-45deg);
+   transform: rotate(-45deg);
   position: relative;
   top: 0;
   right: 0;
@@ -513,6 +512,7 @@ input#menuToggle {
 }
 
 
+
 @media screen and (max-width: 499px) {
 	.menu {
      width: 100%; 
@@ -524,7 +524,25 @@ input#menuToggle {
 .menu ul li a h6{
 	font-size:12px;;	
 }
+#menuToggle:checked ~ .menuOpen .open:before {
+  content: "";
+  background-color: white;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
 
+#menuToggle:checked ~ .menuOpen .open:after {
+  content: "";
+  background-color: white;
+  transform: rotate(-45deg);
+  position: relative;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
 
 	
 }
@@ -630,7 +648,7 @@ section{
 .formBuscar::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: black;
 		font-family:"aktiv-grotesk-medium";
-	font-size:18px;	
+	font-size:16px;	
 
   opacity: 1; /* Firefox */
 }
@@ -638,14 +656,14 @@ section{
 .formBuscar:-ms-input-placeholder { /* Internet Explorer 10-11 */
   color: black;
 		font-family:"aktiv-grotesk-medium";
-		font-size:18px;
+		font-size:16px;
 
 }
 
 .formBuscar::-ms-input-placeholder { /* Microsoft Edge */
   color: black;
 		font-family:"aktiv-grotesk-medium";
-		font-size:18px;
+		font-size:16px;
 
 }
  
