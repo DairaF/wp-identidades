@@ -1250,12 +1250,19 @@ a.adicionales:hover:after {
  .slick-list {
     margin: 0 -27px;
   }
-
 .item .card {
 	    box-shadow: none;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
+}	
+.slick-dotted.slick-slider {
+    margin-bottom: 60px;
 }
+.slick-dots {
+     bottom: -60px; 
+}
+
+
 
 .slick-dots li button:before {
     font-family: 'slick';
