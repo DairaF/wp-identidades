@@ -43,7 +43,7 @@
 
 				<!--  -->
         		<div class="col-12 col-lg-3 col-xl-2 d-none d-lg-block">				
-					<ul class="tabs tabs_dark"> 
+					<ul class="tabs tabs_dark navbar-hoja"> 
 						<?php $i=0; foreach ($keys as $key){ $i++; ?>
 							
 							<li rel="tab<?php echo($i); ?>" href="#tab<?php echo($i); ?>"><?php echo($key) ?></li>

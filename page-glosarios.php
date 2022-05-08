@@ -39,7 +39,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-2 col-lg-3 pl-0 pl-lg-3">				
-						<ul class="letters">
+						<ul class="letters navbar-hoja">
 						<?php foreach ($keys as $key){ ?>
 							<li><a href="#<?php echo($key) ?>"><?php echo strtoupper($key) ?></a></li>
 						<?php } ?>
