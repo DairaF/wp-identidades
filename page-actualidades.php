@@ -48,7 +48,16 @@
           if($loop->have_posts() && $ok == true){
           ?>
           <div class="col-12">
-            <h2 class="text-left text-lg-center mb-5">Actualidades sobre: <?php foreach ($params as $param) { echo (ucwords($param)); } ?></h2>			
+            <h2 class="text-left text-lg-center mb-5">Actualidades sobre: <?php if (sizeof($selectedTag) >= 2 ){
+              $size = sizeof($selectedTag);
+              $counter = 0;
+              foreach ($params as $param) {
+                $counter ++;
+                if($counter == $size){
+                echo (ucwords($param) );}else{ echo (ucwords($param). " - ");} } }
+                else{ 
+                  foreach ($params as $param) { 
+                    echo (ucwords($param));}} ?></h2>			
           </div>
 					 <div class="c-relacionadas">
           <?php
