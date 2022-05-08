@@ -724,7 +724,10 @@ section{
 .sin-borde{
 	border:0;
 }
- 
+ .nomaxw {
+	 max-width:auto!important;
+	 min-width:auto!important;
+ }
 .btnCeleste{
   background-color: var(--celesteOsc);
 }
