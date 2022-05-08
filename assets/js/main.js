@@ -91,8 +91,7 @@ $('.c-relacionadas').slick({
     {
       breakpoint: 480,
       settings: {
-				  centerMode: true,
-        slidesToShow: 1,
+         slidesToShow: 1,
         slidesToScroll: 1
       }
     }
