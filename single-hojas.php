@@ -30,7 +30,7 @@
                 </div>
                 <div class="col-12 col-lg-10 col-xl-8 mb-4">
                 <a href="https://identidadesinformadas.fund.ar/hojas-informativas/"><h4 class="d-none d-lg-block text-center" ><a href="">Hojas informativas</a></h4></a>
-										<h1 class="text-left text-lg-center"><?php the_title() ?></h1>
+					<h1 class="text-left text-lg-center"><?php the_title() ?></h1>
                     
                 </div>
                 <div class="col-12 col-lg-10 col-xl-8 my-4">				
@@ -38,8 +38,9 @@
                         <li class="autor"><span class="autorIcon"><?php echo(mb_substr(get_field('autxr1'), 0, 1, "UTF-8")) ?></span><span><?php the_field('autxr1') ?></span></li>    
                         <?php 
                             if(get_field('autxr2') != ""){
-                                $inicial =mb_substr(get_field('autxr2'), 0, 1, "UTF-8");
-                                echo('<li class="autor"><span class="autorIcon">'. $inicial.'</span><span>'.the_field('autxr2') .'</span></li>');
+                                $inicial = mb_substr(get_field('autxr2'), 0, 1, "UTF-8");
+                                $autor= get_field('autxr2');
+                                echo('<li class="autor"><span class="autorIcon">'. $inicial.'</span><span>'.$autor.'</span></li>');
                             } 
                         ?>
                     </ul> 
