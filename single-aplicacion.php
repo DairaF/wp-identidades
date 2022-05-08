@@ -44,7 +44,7 @@ $abstract = get_post_meta( get_the_ID(), 'abstract', true);
     <div class="row justify-content-between">					
                 
 	    <div class="col-12 col-lg-9 col-xl-9 order-2 order-lg-1 dark-mobile py-5 px-lg-3 mx-lg-3 py-md-0">
-        <h3 class="mb-4">Abstract</h3>
+        <h3 class="mb-4">Resumen</h3>
           <p><?php echo($abstract); ?>
           </p>
       </div>

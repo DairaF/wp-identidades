@@ -77,7 +77,7 @@
 					</div>
 					
             <div class="col-12 col-lg-8 order-2 order-lg-1 dark-mobile py-5 py-md-0">
-                <h3 class="mb-4">Abstract</h3>
+                <h3 class="mb-4">Resumen</h3>
                 <p><?php
                     echo($abstract);
                 ?></p>
@@ -172,7 +172,7 @@
         const ul = document.getElementById('menuSub');
         const func = () => {
             for (let i = 0; i < hs.length; i++){
-                if(hs[i].innerText!="Abstract"){
+                if(hs[i].innerText!="Resumen"){
                 hs[i].id = "h3n"+i;
                 var li = document.createElement("li");
                 var aTag = document.createElement('a');
