@@ -6,7 +6,7 @@ $abstract = get_post_meta( get_the_ID(), 'abstract', true);
 <section class="intro bggradC gradAnimado ">	
     <div class="navigation-top bgCelOsc py-4 px-3 d-block d-lg-none">
         <a href="" class="">
-            <h6 class="">Jurisprudencias</h6>
+            <h6 class=""><a href="https://identidadesinformadas.fund.ar/experiencias-comparadas/jurisprudencias/" class="">Jurisprudencias</a></h6>
             <h6 class="mb-0"><strong><?php the_title(); ?></strong></h6>
         </a>
     </div> 
