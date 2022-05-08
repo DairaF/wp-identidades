@@ -24,7 +24,7 @@
 				<a href="<?php the_permalink() ?>" class="card" style="background-image:url('<?php the_field('foto') ?>'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
 					<div class="card-body">
 					<h4 class="card-title mb-3  d-block"><?php the_title(); ?></h4>
-						<div class="excerpt"> <?php the_excerpt() ?> </div>
+						<div class="excerpt"> <?php echo( substr(get_field('abstract'), 0, 150)); ?>[...] </div>
 					<div class="d-flex align-items-center justify-content-between">
 						<p class="cardAuthor" href="">Por <?php the_field('autxr1'); if(get_field('autxr2')){ echo(', ');the_field('autxr2');} ?></p>
 						<p class="cardDate mb-0"><?php the_time('F j, Y'); ?></p>
