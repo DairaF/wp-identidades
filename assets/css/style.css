@@ -1010,7 +1010,7 @@ section{
 
 .menuItem a {
     display: block;
-    padding: 20px 40px 20px 20px;
+    padding: 20px 60px 20px 20px;
 		position:relative;
 		z-index:10;
 		transition:0.5s all;
@@ -1257,9 +1257,11 @@ a.adicionales:hover:after {
 }	
 .slick-dotted.slick-slider {
     margin-bottom: 60px;
+    padding-bottom: 30px;
 }
+
 .slick-dots {
-     bottom: -60px; 
+     bottom: -30px; 
 }
 
 
@@ -1604,6 +1606,15 @@ h3.nav-acc.collapsed{
 .content-hoja h3 {
 	font-size:28px;
 }
+
+
+#collapseBiblio ul {}
+
+#collapseBiblio ul li{
+	list-style:disc!important;
+	margin-bottom:20px!important;
+}
+
 /*---------------------
  GLOSARIO 
 -----------------------*/

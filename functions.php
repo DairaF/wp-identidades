@@ -6,22 +6,22 @@ require_once get_template_directory() . '/template-parts/navbar.php';
 
 function tema1_agregar_css_js(){
   wp_enqueue_style('style', get_stylesheet_uri());
-   wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css');
+  wp_enqueue_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.min.css');
   wp_enqueue_style('fontsCss', get_template_directory_uri() . '/assets/css/fonts.css');
   
 	wp_enqueue_style('slick', get_template_directory_uri() . '/assets/css/slick.css');
 	wp_enqueue_style('slickCss', get_template_directory_uri() . '/assets/css/slick.css');
-wp_enqueue_style('slickTheme', get_template_directory_uri() . '/assets/css/slick-theme.css');
+	wp_enqueue_style('slickTheme', get_template_directory_uri() . '/assets/css/slick-theme.css');
   
 	wp_enqueue_style('ownStyle', get_template_directory_uri() . '/assets/css/style.css');
   
-  
-  wp_enqueue_script('popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', array ( 'jquery' ), '1.14', true);
+  wp_deregister_script( 'jquery' ); // deregisters the default WordPress jQuery  
+  wp_register_script('jquery', ("https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"), false);
+  wp_enqueue_script('jquery');
+	
+	wp_enqueue_script('popper', 'https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js', array ( 'jquery' ), '1.14', true);
   
   wp_enqueue_script('bootstrap-js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js', array ( 'popper' ), '4.3', true);
-
-  wp_enqueue_script('flexbox', 'https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css', array ( 'flex' ), '4.3', true);
-
   
   // JS personalizados
   wp_enqueue_script('app-js', get_template_directory_uri() . '/js/app.js', array('bootstrap-js'), '1.0', true);

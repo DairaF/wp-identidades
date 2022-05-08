@@ -15,7 +15,7 @@ $abstract = get_post_meta( get_the_ID(), 'abstract', true);
   <div class="container">
             <div class="row justify-content-lg-center">
                 <div class="col-12 col-lg-10 col-xl-8 mb-4">
-                    <ul class="tagContainer justify-content-lg-center">
+                    
                      <ul class="tagContainer justify-content-lg-center">
                         <?php
                         $posttags = get_the_tags();
@@ -29,7 +29,7 @@ $abstract = get_post_meta( get_the_ID(), 'abstract', true);
                         }
                         ?>
                     <ul>
-                    </ul>
+                     
                 </div>
                 <div class="col-12 col-lg-10 col-xl-8 mb-4">
                     <h1 class="text-left text-lg-center"><?php the_title() ?></h1>
