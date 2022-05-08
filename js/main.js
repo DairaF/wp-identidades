@@ -69,8 +69,6 @@ $('.c-relacionadas').slick({
 	arrows:false,
   slidesToShow: 4,
   slidesToScroll: 4,
-	  autoplay: true,
-  autoplaySpeed: 4500,
   responsive: [
     {
       breakpoint: 1200,
