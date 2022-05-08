@@ -79,7 +79,7 @@
           while ( $loop->have_posts() && $ok == true ) : $loop->the_post(); if ($search == null || str_contains($minTitle,$minSearch)): ?>
     <!-- CARD -->
     <div class="">
-          <a href="<?php the_permalink() ?> " target="blank" class="card" 
+          <a href="<?php the_permalink() ?> "  class="card" 
             style="background-image:url('<?php the_field('foto') ?>'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
             <div class="card-body">
               <h4 class="card-title mb-3 d-block"><?php the_title() ?></h4>
