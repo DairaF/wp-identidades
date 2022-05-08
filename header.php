@@ -10,7 +10,9 @@
 	<meta name="keywords" content="">
 	<title>Identidades informadas</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
- 
+	<meta property="og:image" itemprop="image" content="https://identidadesinformadas.fund.ar/wp-content/uploads/2022/05/FU_IndentidadesInformadas_PortadaWeb.jpg">
+    <meta property="og:title" content="Identidades Informadas" />
+    <meta property="og:description" content="Una plataforma informativa sobre la Ley de Identidad de Género, con material clave para planificar y diseñar políticas públicas que avancen en la conquista de derechos para las personas trans, travestis y no binarias." />
 		<!-- Favicons
 		================================================== -->
 		<link rel="shortcut icon" href="fav.png"> 
@@ -51,7 +53,35 @@
 	</head>
 
 
-  <body onload="tagsActive()" <?php body_class(); ?>>
+  <body onload="setActives();tagsActive()" <?php body_class(); ?>>
+
+  <script>
+        const setActive = (pageN) =>{
+            let url = window.location.href;
+            if(url.indexOf(pageN) !== -1){
+              document.getElementById(pageN).classList.add('active');
+            }else{
+              document.getElementById(pageN).classList.remove('active');
+            }
+        }
+		const setActives = () =>{
+			console.log("entra");
+			setActive('hojas');
+			setActive('glosario');
+			setActive('experiencias');
+			setActive('grupo');
+			setActive('actualidades');
+		}
+    </script>
+
+<?php
+				//  $url=$_SERVER['REQUEST_URI'];
+				//  if(url.indexOf('hojas') == -1){
+				// 	echo('si');
+				//  }else{
+				// 	 echo('no');
+				//  }
+			?>
   <style>
             .aplicacion{border:solid 2px var(--lilaOsc)}
             .jurisprudencia{border:solid 2px var(--lilaOsc)}
@@ -72,31 +102,31 @@
 			<div class="menuContent">
 				<ul>
 					<li class="menuItemTop ">
-						<a href="http://identidadesinformadas.fund.ar/identidadesdos/hojas-informativas/" class="celeste">
+						<a id="hojas" href="http://identidadesinformadas.fund.ar/identidadesdos/hojas-informativas/" class="celeste">
 							<h4 class="">Hojas informativas</h4>
 							<h6 class="">Material sobre el acceso a derechos de personas TTNB.</h6>
 						</a>
 					</li>
 					<li class="menuItemTop ">
-						<a href="http://identidadesinformadas.fund.ar/identidadesdos/experiencias-comparadas/" class="lila">
+						<a id="experiencias" href="http://identidadesinformadas.fund.ar/identidadesdos/experiencias-comparadas/" class="lila">
 							<h4 class="">Experiencia normativa y práctica</h4>
 							<h6 class="">Normativa, jurisprudencia y casos de aplicación de la Ley de Identidad de Género.</h6>
 						</a>
 					</li>
 					<li class="menuItemTop ">
-						<a href="http://identidadesinformadas.fund.ar/identidadesdos/actualidades/" class="rosa">
+						<a id="actualidades" href="http://identidadesinformadas.fund.ar/identidadesdos/actualidades/" class="rosa">
 							<h4 class="">Actualidad</h4>
 							<h6 class="">Noticias y novedades sobre la situación de personas TTNB. </h6>
 						</a>
 					</li> 
 					<li class="menuItemTop  ">
-						<a href="http://identidadesinformadas.fund.ar/identidadesdos/glosario/" class="amarillo">
+						<a id="glosario" href="http://identidadesinformadas.fund.ar/identidadesdos/glosario/" class="amarillo">
 							<h4 class="">Glosario</h4>
 							<h6 class="">Algunas palabras clave para comprender en detalle el contenido del sitio.</h6>
 						</a>
 					</li>
 					<li class="menuItemTop ">
-						<a href="http://identidadesinformadas.fund.ar/identidadesdos/grupo-promotor/" class="blanco">
+						<a id="grupo" href="http://identidadesinformadas.fund.ar/identidadesdos/grupo-promotor/" class="blanco">
 							<h4 class="">¿Quiénes Somos?</h4>
 							<h6>Historia del proyecto y de quienes participan de esta iniciativa.</h6>
 						</a>
