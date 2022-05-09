@@ -4,7 +4,7 @@
 	
 			<div class="container">
 				<div class="row justify-content-lg-center">
-					<div class="col-12 col-lg-10 col-xl-8 pt-4 pt-lg-5">				
+					<div class="col-12 col-lg-10 col-xl-8 pt-4 pt-lg-5 pb-5">				
 						<h4 class="d-none d-lg-block text-center mb-4" ><a class="btn-return" href="https://identidadesinformadas.fund.ar/experiencias-comparadas/">Experiencia normativa y práctica</a></h4>					
 						<h1 class="text-left text-lg-center">Normativa</h1>
 						<p class="text-left text-lg-center ">Leyes, decretos y resoluciones que implementan y complementan el derecho al reconocimiento de la identidad de género </p>

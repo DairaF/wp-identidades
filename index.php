@@ -54,7 +54,7 @@
 					</div>
 				</div>
       </div>
-      </section>
+      
     <!-- POSTS CON TAGS -->
 
 
@@ -76,7 +76,7 @@
                 ) ); 
 
         if($selectedTag != null):  ?>
-        <section class="bggradC pt-5 border-b-b px-xl-5">
+         
         <div class="container-fluid  ">
           <div class="row justify-content-center">
             <div class="c-relacionadas"> 
