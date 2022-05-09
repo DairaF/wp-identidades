@@ -137,7 +137,7 @@
 						</video>
 					</div>
 					<div class="col-12 pb-5 text-left text-lg-center mt-5">		
-						<a target="blank" href="https://debatesparlamentarios.fund.ar/ley" class="btn btnBlack">Ver Ley Comentada</a>
+						<a target="blank" href="https://debatesparlamentarios.fund.ar/identidaddegenero" class="btn btnBlack">Ver Ley Comentada</a>
 					</div>
 				</div>
       </div>				

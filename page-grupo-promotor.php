@@ -11,19 +11,7 @@
     
 		<section class="bgGris border-b-b ">
 			<div class="container">
-				<div class="row">		
-					<div class="col-12 pt-5">		
-						<h2 class="text-left text-lg-center blanco mb-4">¿Quiénes somos?</h2>
-						<p class="blanco">El proyecto de Identidades Informadas surge para retratar, en experiencias personales, las barreras y obstáculos de personas TTNB para acceder al cambio registral. Marcelo Mangini, Sabina Bercovich y Ameleo Botto comenzaron el proyecto que, a partir de entrevistas con informantes clave y aliades,  dió un paso atrás y buscó difundir conocimiento generado por los movimientos TTNB, activismos, académiques y aliades. 
-						</p><p class="blanco">
-						Creamos Identidades Informadas para poner a disposición contenidos elaborados a partir de conocimientos construidos colectivamente. Creemos que el reconocimiento de la identidad de género de las personas está indisolublemente ligado al respeto de su dignidad, por lo que proponemos este sitio como herramienta para avanzar en la conquista de derechos.
-						</p><p class="blanco">
-						El objetivo del proyecto es articular entre la producción de información del movimiento LGBTTI+ y las personas encargadas de tomar decisiones y diseñar políticas públicas. 
-						</p><p class="blanco">
-						Este proyecto es una iniciativa del equipo de Géneros de Fundar. 
-						</p>
-					</div> 
-				</div>
+				
 				<div class="row mb-4">		
 					<div class="col-12 pt-5">		
 						<h2 class="text-left text-lg-center blanco mb-4">Grupo Promotor</h2>
@@ -69,38 +57,23 @@
                     <?php endwhile;?>
 								
 				</div>
+				<div class="row">		
+					<div class="col-12 pt-5">		
+						<h2 class="text-left text-lg-center blanco mb-4">¿Quiénes somos?</h2>
+						<p class="blanco">El proyecto de Identidades Informadas surge para retratar, en experiencias personales, las barreras y obstáculos de personas TTNB para acceder al cambio registral. Marcelo Mangini, Sabina Bercovich y Ameleo Botto comenzaron el proyecto que, a partir de entrevistas con informantes clave y aliades,  dió un paso atrás y buscó difundir conocimiento generado por los movimientos TTNB, activismos, académiques y aliades. 
+						</p><p class="blanco">
+						Creamos Identidades Informadas para poner a disposición contenidos elaborados a partir de conocimientos construidos colectivamente. Creemos que el reconocimiento de la identidad de género de las personas está indisolublemente ligado al respeto de su dignidad, por lo que proponemos este sitio como herramienta para avanzar en la conquista de derechos.
+						</p><p class="blanco">
+						El objetivo del proyecto es articular entre la producción de información del movimiento LGBTTI+ y las personas encargadas de tomar decisiones y diseñar políticas públicas. 
+						</p><p class="blanco">
+						Este proyecto es una iniciativa del Área de Géneros de Fundar y contó con el apoyo del Área de Relaciones Institucionales, Comunicación y Prensa. Participaron Juan Martín Argoitia, Paola Bergallo, Ameleo Botto, Emilia Cerra, Aluminé Moreno, Mariela Magnelli, María de las Nieves Puglia, María Belén Bonello, Candelaria Carranza, Gonzalo Fernández Rozas, Maximiliano Maito, Manuela Sisti, Jimena Zeitune, Juliana Arellano e Ismael Cassini. Brenda Burgoa y Federico Witzel hicieron la UX. La programación backend estuvo a cargo de Daira Faz y la maquetación frontend, a cargo de Cecilia Barco. 
+						</p>
+						<br>
+					</div> 
+				</div>
       </div>				
     </section>		
 		
-		<section class="bgG border-b-b ">
-			<div class="container">
-				<div class="row">		
-					<div class="col-12 pt-5">		
-						<h2 class="text-left text-lg-center blanco mb-5">Realizadores</h2>
-					</div> 
-				</div>
-				
-				<div class="row justify-content-center">
-							
-				<!-- CARD promotor -->
-					<div class="col-12 col-lg-4  mb-4">
-						<p class="blanco"><strong>Producci&oacute;n</strong></p>
-						<p class="blanco">Nombre Apellido<br />Nombre Apellido<br />Nombre Apellido<br />Nombre Apellido</p> 			
-					</div>
-
-					<div class="col-12 col-lg-4 mb-4"> 
-						<p class="blanco"><strong>Gui&oacute;n</strong></p>
-						<p class="blanco">Nombre Apellido<br />Nombre Apellido<br />Nombre Apellido<br />Nombre Apellido</p> 				
-					</div>
-
-					<div class="col-12 col-lg-4 mb-4"> 
-						<p class="blanco"><strong>Dise&ntilde;o</strong></p>
-						<p class="blanco">Nombre Apellido<br />Nombre Apellido<br />Nombre Apellido<br />Nombre Apellido</p>					
-					</div>
-			 
-								
-				</div>
-      </div>				
-    </section>
+		
     <?php include_once('menuBottom.php'); ?>
   <?php get_footer(); ?>

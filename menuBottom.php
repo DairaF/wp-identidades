@@ -36,7 +36,7 @@
 							</a>
 						</li>
 						<li class="menuItem ">
-							<a target="blank" href="https://debatesparlamentarios.fund.ar/ley" class="leyLink" target="blank">
+							<a target="blank" href="https://debatesparlamentarios.fund.ar/identidaddegenero/" class="leyLink" target="blank">
 								<h4 class="">Ley de identidad de género comentada</h4>
 								<h6>Explorá la Ley de Identidad de Género con comentarios en sus aspectos destacados y en los temas que todavía queda camino por recorrer.</h6>
 							</a>
