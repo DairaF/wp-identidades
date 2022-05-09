@@ -73,7 +73,7 @@
               <h4 class="card-title mb-3 d-block"><?php the_title() ?></h4>
               </p>
               <div class="d-flex align-items-center justify-content-between">
-                <p class="cardTag"><?php $categories = get_the_category();
+                <p class="cardTag rosaOsc"><?php $categories = get_the_category();
                 if ($categories) {
                   foreach($categories as $cat) {
                     echo ($cat->name);
@@ -115,7 +115,7 @@
             <div class="card-body">
               <h4 class="card-title mb-3 d-block"><?php the_title() ?></h4>
               <div class="d-flex align-items-center justify-content-between">
-                <p class="cardTag"><?php $categories = get_the_category();
+                <p class="cardTag rosaOsc"><?php $categories = get_the_category();
                 if ($categories) {
                   foreach($categories as $cat) {
                     echo ($cat->name);

@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <?php $tipoPost='jurisprudencia' ?>
 <?php include_once('top-filtro-tags.php'); ?>
-	<section class="bggradRosa gradAnimado intro">
+	<section class="bggradLila gradAnimado intro">
 	
 			<div class="container">
 				<div class="row justify-content-lg-center">
@@ -44,7 +44,7 @@
         parse_str($url_components['query'], $params);
         $selectedTag = $params; 
 ?>
-<section class="bggradRosa gradAnimado py-5 border-b-b px-xl-5 overHide">
+<section class="bgLilaOsc gradAnimado  border-b-b px-xl-5 overHide">
 		<div class="container-fluid  ">
 			<div class="row">
 
@@ -68,7 +68,7 @@
           }
           if($loop->have_posts() && $ok == true){
           ?>
-          <div class="col-12">
+          <div class="col-12 pt-5">
             <h2 class="text-left text-lg-center mb-5">Fallos sobre: <?php if (sizeof($selectedTag) >= 2 ){
               $size = sizeof($selectedTag);
               $counter = 0;
@@ -80,7 +80,7 @@
                   foreach ($params as $param) { 
                     echo (ucwords($param));}} ?></h2>			
           </div>
-					<div class="c-relacionadas">
+					<div class="c-relacionadas pb-5">
           <?php
           }
           $minTitle = strtolower(get_the_title());
@@ -88,13 +88,13 @@
           while ( $loop->have_posts() && $ok == true ) : $loop->the_post(); if ($search == null || str_contains($minTitle,$minSearch)): ?>
     <!-- CARD -->
     <div class="">
-          <a href="<?php the_permalink() ?> " target="blank" class="card" 
+          <a href="<?php the_permalink() ?> " class="card" 
             style="background-image:url('<?php the_field('foto') ?>'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
             <div class="card-body">
               <h4 class="card-title mb-3 d-block"><?php the_title() ?></h4>
               </p>
               <div class="d-flex align-items-center justify-content-between">
-                <p class="cardTag"><?php $categories = get_the_category();
+                <p class="cardTag lilaOsc"><?php $categories = get_the_category();
                 if ($categories) {
                   foreach($categories as $cat) {
                     echo ($cat->name);
@@ -112,7 +112,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="bgRosaOsc py-5 border-b-b px-xl-5">
+	<section class="bgLilaOsc py-5 border-b-b px-xl-5">
 		<div class="container-fluid">
 		<div class="row">
     <!-- ULTIMAS -->
@@ -129,7 +129,7 @@
             <div class="card-body">
               <h4 class="card-title mb-3 d-block"><?php the_title() ?></h4>
               <div class="d-flex align-items-center justify-content-between">
-                <p class="cardTag"><?php $categories = get_the_category();
+                <p class="cardTag lilaOsc"><?php $categories = get_the_category();
                 if ($categories) {
                   foreach($categories as $cat) {
                     echo ($cat->name);

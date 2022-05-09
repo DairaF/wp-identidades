@@ -3,7 +3,7 @@
 //variables custom
 $abstract = get_post_meta( get_the_ID(), 'abstract', true);
 ?>
-<section class="intro bggradC gradAnimado ">	
+<section class="intro bggradLila gradAnimado ">	
     <div class="navigation-top bgCelOsc py-4 px-3 d-block d-lg-none">
         <a href="" class="">
             <h6 class=""><a href="https://identidadesinformadas.fund.ar/experiencias-comparadas/jurisprudencias/" class="">Jurisprudencias</a></h6>
@@ -30,14 +30,14 @@ $abstract = get_post_meta( get_the_ID(), 'abstract', true);
                     </ul>
                 </div>
                 <div class="col-12 col-lg-10 col-xl-8 mb-4">
-                    <a href="https://identidadesinformadas.fund.ar/experiencias-comparadas/jurisprudencias/"><h4 class="d-none d-lg-block text-center" ><a href="">Jurisprudencias</a></h4></a>
+                    <h4 class="d-none d-lg-block text-center" ><a class="btn-return" href="https://identidadesinformadas.fund.ar/experiencias-comparadas/jurisprudencias/">Jurisprudencias</a></h4>
                     <h1 class="text-left text-lg-center"><?php the_title() ?></h1>
                 </div>
     </div>
   </div>
 </section> 
     
-<section class="bgCelOsc py-md-5 border-b-w ">
+<section class="bgLilaOsc py-md-5 border-b-w ">
   <div class="container">
     <div class="row justify-content-between">					
                 

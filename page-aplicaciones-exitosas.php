@@ -2,8 +2,8 @@
 <?php $tipoPost='jurisprudencia' ?>
 <?php include_once('top-filtro-tags.php'); ?>
 
-	<section class="bggradRosa gradAnimado intro">
-		<div class="navigation-top bgLilaOsc py-4 px-3 d-block d-lg-none">
+	<section class="bggradLila gradAnimado intro">
+		<div class="navigation-top bgLilaOsc py-4 px-3 d-none d-lg-none">
 			<a href="" class="">
 				<h6 class="">experiencia</h6>
 				<h6 class="mb-0"><strong>Educación</strong></h6>
@@ -30,11 +30,11 @@
         parse_str($url_components['query'], $params);
         $selectedTag = $params; 
 ?>
-<section class="bggradRosa gradAnimado py-5 border-b-b px-xl-5 overHide">
+<section class="bgLilaOsc  border-b-b px-xl-5 overHide">
 		<div class="container-fluid ">
 			<div class="row">
 
-            <div class="c-relacionadas">
+            
         <?php
         $loop = new WP_Query( array('post_type' => 'aplicacion'));
         $ok = false; 
@@ -54,7 +54,7 @@
           }
           if($loop->have_posts() && $ok == true){
           ?>
-          <div class="col-12">
+          <div class="col-12 pt-5">
             <h2 class="text-left text-lg-center mb-5">Aplicaciones sobre: <?php if (sizeof($selectedTag) >= 2 ){
               $size = sizeof($selectedTag);
               $counter = 0;
@@ -66,6 +66,7 @@
                   foreach ($params as $param) { 
                     echo (ucwords($param));}} ?></h2>			
           </div>
+					<div class="c-relacionadas pb-5">
           <?php
           }
           $minTitle = strtolower(get_the_title());
@@ -79,7 +80,7 @@
               <h4 class="card-title mb-3 d-block"><?php the_title() ?></h4>
               </p>
               <div class="d-flex align-items-center justify-content-between">
-                <p class="cardTag"><?php $categories = get_the_category();
+                <p class="cardTag lilaOsc"><?php $categories = get_the_category();
                 if ($categories) {
                   foreach($categories as $cat) {
                     echo ($cat->name);
@@ -100,7 +101,7 @@
 			
 
  
-<section class="bgRosaOsc py-5 border-b-b px-xl-5">
+<section class="bgLilaOsc py-5 border-b-b px-xl-5">
 		<div class="container-fluid  ">
 			<!-- <div class="row">
 				<div class="col-12">
@@ -122,7 +123,7 @@
               <h4 class="card-title mb-3 d-block"><?php the_title() ?></h4>
               </p>
               <div class="d-flex align-items-center justify-content-between">
-                <p class="cardTag"><?php $categories = get_the_category();
+                <p class="cardTag lilaOsc"><?php $categories = get_the_category();
                 if ($categories) {
                   foreach($categories as $cat) {
                     echo ($cat->name);

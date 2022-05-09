@@ -3,9 +3,9 @@
 //variables custom
 $abstract = get_post_meta( get_the_ID(), 'abstract', true);
 ?>
-<section class="intro bggradC gradAnimado ">	
-    <div class="navigation-top bgCelOsc py-4 px-3 d-block d-lg-none">
-            <h6 class=""><a href="https://identidadesinformadas.fund.ar/experiencias-comparadas/aplicaciones-exitosas/" class="">Aplicaciones Exitosas</a></h6>
+<section class="intro bggradLila gradAnimado ">	
+    <div class="navigation-top bgLilaOsc py-4 px-3 d-block d-lg-none">
+            <h6 class=""><a href="https://identidadesinformadas.fund.ar/experiencias-comparadas/aplicaciones-exitosas/" class="negro">Aplicaciones Exitosas</a></h6>
             <h6 class="mb-0"><strong><?php the_title(); ?></strong></h6>
         </a>
     </div> 
@@ -31,14 +31,14 @@ $abstract = get_post_meta( get_the_ID(), 'abstract', true);
                      
                 </div>
                 <div class="col-12 col-lg-10 col-xl-8 mb-4">
+                    <h4 class="d-none d-lg-block text-center" ><a class="btn-return" href="https://identidadesinformadas.fund.ar/experiencias-comparadas/aplicaciones-exitosas/">Aplicaciones Exitosas</a></h4>
                     <h1 class="text-left text-lg-center"><?php the_title() ?></h1>
-                    <h4 class="d-none d-lg-block text-center" >Aplicaciones Exitosas</h4>
                 </div>
     </div>
   </div>
 </section> 
     
-<section class="bgCelOsc py-md-5 border-b-w ">
+<section class="bgLilaOsc py-md-5 border-b-w ">
   <div class="container">
     <div class="row justify-content-between">					
                 

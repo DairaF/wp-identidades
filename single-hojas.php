@@ -29,9 +29,8 @@
                     <ul>
                 </div>
                 <div class="col-12 col-lg-10 col-xl-8 mb-4">
-                    <h4 class="d-none d-lg-block text-center" ><a href="https://identidadesinformadas.fund.ar/hojas-informativas/">Hojas informativas</a></h4>
-					<h1 class="text-left text-lg-center"><?php the_title() ?></h1>
-                    
+                  <h4 class="d-none d-lg-block text-center" ><a class="btn-return" href="https://identidadesinformadas.fund.ar/hojas-informativas/">Hojas informativas</a></h4>
+									<h1 class="text-left text-lg-center"><?php the_title() ?></h1>                   
                 </div>
                 <div class="col-12 col-lg-10 col-xl-8 my-4">				
                     <ul class="autorContainer justify-content-lg-center">              
