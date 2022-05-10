@@ -18,7 +18,7 @@
                 ) ); 
 
         if($selectedTag != null): ?>
-<section class="bggradRosa gradAnimado py-5 border-b-b px-xl-5 border-t-b overHide">
+<section class="bggrad4col py-5 border-b-b px-xl-5 border-t-b overHide">
 		<div class="container-fluid  ">
 			<div class="row">
 				<div class="col-12">

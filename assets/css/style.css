@@ -1360,6 +1360,42 @@ a.adicionales:last-child {
 	border-bottom:0;
 } 
 
+.slick-slider {
+	    padding-bottom: 60px;
+}
+
+.slick-prev, .slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, 0%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: none;
+    background: transparent;
+    top: auto;
+}
+
+.slick-prev {
+    left: calc(50% - 32px);
+}
+.slick-next {
+    right: calc(50% - 32px);
+}
+.slick-prev:before, .slick-next:before {
+     font-size: 28px; 
+}
+
+
+
 }
 
 @media screen and (max-width: 580px) {	
@@ -1426,8 +1462,8 @@ background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
 .navigation-top button.navbar-toggler {
     color: #000;
     width: 40px;
-    background: url("../img/flecha-negra.svg") no-repeat center;
-    background-size: 30px;
+    background: url("../img/flecha-negra-down.svg") no-repeat center;
+    background-size: 20px;
     display: block;
     height: 40px;
     padding: 0;
@@ -1437,6 +1473,12 @@ background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
     border: 0;
     outline: 0;
     box-shadow: none;
+}
+.navigation-top button.navbar-toggler.collapsed {
+ 
+    background: url("../img/flecha-negra.svg") no-repeat center;
+    background-size: 30px;
+ 
 }
 
 @media screen and (max-width: 991px) {	
@@ -1465,7 +1507,11 @@ background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
     border-top: 0;
     border-bottom: 0;
 }
-
+.menu-hoja li a:hover,
+.menu-hoja li a.active{
+	color:var(--negro);
+	text-decoration:underline;
+}
 }
 /*---------------------
  TABS - ACCORDION 

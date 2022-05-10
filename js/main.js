@@ -66,9 +66,10 @@ $('.c-relacionadas').slick({
   dots: true,
   infinite: false,
   speed: 300,
-	arrows:false,
   slidesToShow: 4,
   slidesToScroll: 4,
+	  autoplay: true,
+  autoplaySpeed: 4000,
   responsive: [
     {
       breakpoint: 1200,
@@ -76,6 +77,8 @@ $('.c-relacionadas').slick({
         slidesToShow: 3,
         slidesToScroll: 3,
         infinite: true,
+					arrows:false,
+
         dots: true
       }
     },
@@ -83,15 +86,18 @@ $('.c-relacionadas').slick({
       breakpoint: 991,
       settings: {
         slidesToShow: 2,
-        slidesToScroll: 2
+        slidesToScroll: 2,
+					arrows:false,
+
       }
     },
     {
       breakpoint: 480,
-      settings: {
-				  centerMode: true,
+      settings: { 
         slidesToShow: 1,
-        slidesToScroll: 1
+        slidesToScroll: 1,
+				 dots: false,
+				 arrows:true
       }
     }
     // You can unslick at a given breakpoint now by adding:
@@ -171,8 +177,8 @@ $(window).scroll(function() {
 });
 
 
-$('.menu-hoja').click(function(e) {
-    e.stopPropagation();
+$('.menu-hoja li a').on('click',function() {
+  $('.navbar-collapse').collapse('hide');
 });
 
 
