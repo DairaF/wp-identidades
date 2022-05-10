@@ -5,32 +5,32 @@
 				<div class="col-12 px-0">
 					<ul class="menuItems">
 						<li class="menuItem ">
-							<a href="https://identidadesinformadas.fund.ar/identidadesdos/hojas-informativas/" class="celeste">
+							<a id="hojasb" href="https://identidadesinformadas.fund.ar/identidadesdos/hojas-informativas/" class="celeste">
 								<h4 class="">Hojas informativas</h4>
 								<h6 class="">Material sobre el acceso a derechos de personas TTNB.</h6>
 							</a>
 						</li>
 						<li class="menuItem ">
-							<a href="http://identidadesinformadas.fund.ar/identidadesdos/experiencias-comparadas/" class="lila">
+							<a id="experienciasb" href="http://identidadesinformadas.fund.ar/identidadesdos/experiencias-comparadas/" class="lila">
 								<h4 class="">Experiencia normativa y práctica</h4>
 								<h6 class="">Normativa, jurisprudencia y casos de aplicación de la Ley de Identidad de Género.</h6>
 								
 							</a>
 						</li>
 						<li class="menuItem ">
-							<a href="http://identidadesinformadas.fund.ar/identidadesdos/actualidades/" class="rosa">
+							<a id="actualidadesb" href="http://identidadesinformadas.fund.ar/identidadesdos/actualidades/" class="rosa">
 								<h4 class="">Actualidad</h4>
 								<h6 class="">Noticias y novedades sobre la situación de personas TTNB. </h6>
 							</a>
 						</li> 
 						<li class="menuItem  ">
-							<a href="http://identidadesinformadas.fund.ar/identidadesdos/glosario/" class="amarillo">
+							<a id="glosariob" href="http://identidadesinformadas.fund.ar/identidadesdos/glosario/" class="amarillo">
 								<h4 class="">Glosario</h4>
 								<h6 class="">Algunas palabras clave para comprender en detalle el contenido del sitio.</h6>
 							</a>
 						</li>
 						<li class="menuItem ">
-							<a href="http://identidadesinformadas.fund.ar/identidadesdos/grupo-promotor/" class="blanco">
+							<a id="grupob" href="http://identidadesinformadas.fund.ar/identidadesdos/grupo-promotor/" class="blanco">
 								<h4 class="">¿Quiénes Somos?</h4>
 								<h6>Historia del proyecto y de quienes participan de esta iniciativa.</h6>
 							</a>

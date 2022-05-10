@@ -1,6 +1,22 @@
 <?php get_header(); ?>
-<body onload="tagsActive()" >
+<!-- <body onload="tagsActive()" > -->
     <script>
+          const tagsActive = () => {
+        tagActive('identificacion');
+        tagActive('salud');
+        tagActive('reparacion');
+        tagActive('participacion');
+        tagActive('datos');
+        tagActive('violencias');
+      }
+      const tagActive = (tag) =>{
+        let url = window.location.href;
+        if(url.indexOf(tag) == -1){
+          document.getElementById(tag).classList.remove('active');
+        }else{
+          document.getElementById(tag).classList.add('active');
+        }
+      }
         const setTag = (tag) =>{
             let url = window.location.href;
             if(url.indexOf(tag) == -1){
@@ -67,7 +83,7 @@
     parse_str($url_components['query'], $params);
     $selectedTag = $params;
     $loop = new WP_Query( array( 
-              'post_type' => array('actualidad','normativa','jurisprudencia','aplicacion'), 
+              'post_type' => array('actualidad','jurisprudencia','aplicacion'), 
                 
                 'tag' => $selectedTag,
                 'posts_per_page' => 1000 ,
@@ -94,13 +110,12 @@
               }
             }
           ?>
-          <a href="<?php if($categ='actualidad'){the_field('link_nota');}else{the_permalink();}?>" target="blank" class="card" style="background-image:url('<?php the_field('foto') ?>'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
+          <a href="<?php if($categName=='Actualidad'){the_field('link_nota');}else{the_permalink();}?>" target="blank" class="card" style="background-image:url('<?php the_field('foto') ?>'); background-repeat:no-repeat; background-size:cover; background-position:center center;">
             <div class="card-body <?php 
-                if($categ='hoja'){ echo('hoja');}
-                else if($categ='aplicacion'){ echo('aplicacion');} 
-                else if($categ='jurisprudencia'){ echo('jurisprudencia');} 
-                else if($categ='normativa'){ echo('normativa');} 
-                else if($categ='actualidad'){ echo('actualidad');} 
+                if($categName =='Aplicacion'){ echo('aplicacion');} 
+                else if($categName =='Jurisprudencia'){ echo('jurisprudencia');} 
+                else if($categName =='Actualidad'){ echo('actualidad');} 
+                else if($categName =='Normativa'){ echo('normativa');} 
              ?>">
               <h4 class="card-title mb-3 d-block"><?php the_title(); ?></h4>
               <div class="d-flex align-items-center justify-content-between">

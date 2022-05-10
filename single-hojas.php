@@ -34,12 +34,12 @@
                 </div>
                 <div class="col-12 col-lg-10 col-xl-8 my-4">				
                     <ul class="autorContainer justify-content-lg-center">              
-                        <li class="autor"><span class="autorIcon"><?php echo(mb_substr(get_field('autxr1'), 0, 1, "UTF-8")) ?></span><span><?php the_field('autxr1') ?></span></li>    
+                        <li class="autor"><a href="#a1"><span class="autorIcon"><?php echo(mb_substr(get_field('autxr1'), 0, 1, "UTF-8")) ?></span><span><?php the_field('autxr1') ?></span></a></li>    
                         <?php 
                             if(get_field('autxr2') != ""){
                                 $inicial = mb_substr(get_field('autxr2'), 0, 1, "UTF-8");
                                 $autor= get_field('autxr2');
-                                echo('<li class="autor"><span class="autorIcon">'. $inicial.'</span><span>'.$autor.'</span></li>');
+                                echo('<li class="autor"><a href="#a2"><span class="autorIcon">'. $inicial.'</span><span>'.$autor.'</span></a></li>');
                             } 
                         ?>
                     </ul> 
@@ -135,7 +135,7 @@
 								<div class="row">
 								
 									<!-- CARD AUTOR -->
-										<div class="col-12 col-md-6 mb-4 px-lg-4">
+										<div id="a1" class="col-12 col-md-6 mb-4 px-lg-4">
 											<div class="promotor">
 												<div class="pic-autxr mb-4"><img src="<?php the_field('foto_autxr_1') ?>"></div>
 												<h4 class="card-title mb-3 d-block "><?php the_field('autxr1') ?></h4>
@@ -147,7 +147,7 @@
 									<?php 
                                     if(get_field('autxr2') != ""){ 
                                     ?>
-                                    <div class="col-12 col-md-6 mb-4 px-lg-4">
+                                    <div id="a2" class="col-12 col-md-6 mb-4 px-lg-4">
 											<div class="promotor">
 												<div class="pic-autxr mb-4"><img src="<?php the_field('foto_autxr_2') ?>"></div>
 												<h4 class="card-title mb-3 d-block "><?php the_field('autxr2') ?></h4>

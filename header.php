@@ -6,7 +6,7 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="robots" content="index,follow">
 	<meta name="google-site-verification" content="">
-	<meta name="description" content="">
+	<meta name="description" content="Una plataforma informativa sobre la Ley de Identidad de Género, con material clave para planificar y diseñar políticas públicas que avancen en la conquista de derechos para las personas trans, travestis y no binarias.">
 	<meta name="keywords" content="">
 	<title>Identidades informadas</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -60,12 +60,13 @@
             let url = window.location.href;
             if(url.indexOf(pageN) !== -1){
               document.getElementById(pageN).classList.add('active');
+              document.getElementById(pageN+'b').classList.add('active');
             }else{
               document.getElementById(pageN).classList.remove('active');
+              document.getElementById(pageN+'b').classList.remove('active');
             }
         }
 		const setActives = () =>{
-			console.log("entra");
 			setActive('hojas');
 			setActive('glosario');
 			setActive('experiencias');
@@ -82,11 +83,11 @@
 				// 	 echo('no');
 				//  }
 			?>
-  <style>
-            .aplicacion{border:solid 2px var(--lilaOsc)}
-            .jurisprudencia{border:solid 2px var(--lilaOsc)}
-            .normativa{border:solid 2px var(--lilaOsc)}
-            .actualidad{border:solid 2px var(--rosa)}
+  		<style>
+            .aplicacion{border:solid 5px var(--lilaOsc)}
+            .jurisprudencia{border:solid 5px var(--lila)}
+            .normativa{border:solid 5px #7e76d3)}
+            .actualidad{border:solid 5px var(--rosa)}
           </style>
   <header id="site-header">
 		<div class="brand"><a href="/">fund.ar</a></div>
@@ -138,7 +139,7 @@
  						</a>
 					</li>
 					<li class="menuItemTop ">
-						<a target="blank" href="https://debatesparlamentarios.fund.ar/ley" class="leyLink">
+						<a target="blank" href="https://debatesparlamentarios.fund.ar/identidaddegenero/" class="leyLink">
 							<h4 class="">Ley de identidad de género <br>comentada por especialistas</h4>
 							<h6>Explorá la Ley de Identidad de Género con comentarios en sus aspectos destacados y en los temas que todavía queda camino por recorrer.</h6>
 						</a>
