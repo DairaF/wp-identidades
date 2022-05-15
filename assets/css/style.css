@@ -401,7 +401,7 @@ input#menuToggle {
 
 .menu {
   position: fixed;
-  width: 500px; 
+  width: 450px; 
   top: 0;
   right: 0;
  }
@@ -449,9 +449,9 @@ input#menuToggle {
 .menu ul li a {
   display: block;
   text-decoration: none;
-  padding:10px 70px 10px 20px;
+  padding:10px 60px 10px 20px;
 	text-align: left;
-	    min-height: 85px;
+	min-height: 75px;
 }
 
 .menu ul li a:hover {
@@ -461,6 +461,16 @@ input#menuToggle {
 .menu ul li:hover {
   background: white;
 }
+
+.menu ul li a h4 {
+	font-size:18px;
+}
+
+.menu ul li a h6 {
+	font-size:14px;
+	margin-bottom:0;
+}
+
 
 .menuEffects {
   opacity: 0;
@@ -825,11 +835,14 @@ section{
 	position:relative;
     font-size: 27px;
     font-weight: 400;
+		transition:0.5s all;
 }
  
 
 .menuItem a h6{
   font-size:18px;
+		transition:0.5s all;
+
 }
 
 .menuItemTop a.celeste.active,	
@@ -839,19 +852,21 @@ section{
 	background: rgb(255,255,255);
 	background: linear-gradient(143deg, rgba(255,255,255,1) 0%, rgba(201,244,246,1) 44%);
 	color:#000!important;
+		transition:0.5s all;
 }  
 
-.menuItemTop a.celeste:after,
-.menuItem a.celeste:after {
-	content:'';
-	position:absolute;
-	top:30px;
-	right:30px;
-	background:url("../img/flecha-01.svg") no-repeat ;
-	background-size:30px;
-	width:30px;
-	height:30px;
-} 
+.menuItemTop a.celeste:after, .menuItem a.celeste:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    background: url("../img/flecha-01.svg") no-repeat;
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%);
+		transition:0.5s all;
+}
  
 
 .menuItemTop a.lila.active,	
@@ -861,18 +876,22 @@ section{
 	background: rgb(255,255,255);
 	background: linear-gradient(143deg, rgba(255,255,255,1) 0%, rgba(203,194,249,1) 44%);
 	color:#000!important;
+		transition:0.5s all;
 }  
 
 .menuItemTop a.lila:after,
 .menuItem a.lila:after {
 	content:'';
 	position:absolute;
-	top:30px;
-	right:30px;
+  top: 50%;
+	right:20px;
 	background:url("../img/flecha-02.svg") no-repeat ;
 	background-size:30px;
 	width:30px;
 	height:30px;
+	transform: translateY(-50%);
+		transition:0.5s all;
+
 } 
    
 .menuItemTop a.rosa.active,	
@@ -882,18 +901,22 @@ section{
 	background: rgb(255,255,255);
 	background: linear-gradient(143deg, rgba(255,255,255,1) 0%, rgba(248,211,230,1) 44%);
 	color:#000!important;
+		transition:0.5s all;
 }  
 
 .menuItemTop a.rosa:after,
 .menuItem a.rosa:after {
 	content:'';
 	position:absolute;
-	top:30px;
-	right:30px;
+	top:50%;
+	right:20px;
 	background:url("../img/flecha-04.svg") no-repeat ;
 	background-size:30px;
 	width:30px;
 	height:30px;
+	transform: translateY(-50%);
+		transition:0.5s all;
+
 } 
 
 
@@ -904,18 +927,22 @@ section{
 	background: rgb(255,255,255);
 	background: linear-gradient(143deg, rgba(255,255,255,1) 0%, rgba(247,255,192,1) 44%);
 	color:#000!important;
+		transition:0.5s all;
 }  
 
 .menuItemTop a.amarillo:after ,
 .menuItem a.amarillo:after {
 	content:'';
 	position:absolute;
-	top:30px;
-	right:30px;
+	top:50%;
+	right:20px;
 	background:url("../img/flecha-03.svg") no-repeat ;
 	background-size:30px;
 	width:30px;
 	height:30px;
+	    transform: translateY(-50%);
+		transition:0.5s all;
+
 } 
 
 
@@ -943,6 +970,7 @@ section{
 .menuItem a.lila:hover:after {
 	background:url("../img/flecha-negra.svg") no-repeat;
 	background-size:30px;
+		transition:0.5s all;
 } 
 
  
@@ -952,51 +980,94 @@ section{
 	background: linear-gradient(297deg, rgba(253,255,142,1) 0%, rgba(187,254,235,1) 36%, rgba(255,193,226,1) 70%, rgba(191,172,253,1) 100%);
 	color:#000!important;
 	position:relative;
+	transition:0.5s all;
 }  
 
 .menuItemTop a.leyLink:after ,
 .menuItem a.leyLink:after {
 	content:'';
 	position:absolute;
-	top:30px;
-	right:30px;
+	top:50%;
+	right:20px;
  	background:url("../img/flecha-negra.svg") no-repeat;
 	background-size:30px;
 	width:30px;
 	height:30px;
 	z-index:10;
+  transform: translateY(-50%);
+	transition:0.5s all;
 }  
+
+.menuItemTop  a.leyLink:hover,
+.menuItem  a.leyLink:hover{
+	background: rgb(253,255,142);
+	background: linear-gradient(127deg, rgba(253,255,142,1) 0%, rgba(187,254,235,1) 36%, rgba(255,193,226,1) 70%, rgba(191,172,253,1) 100%);
+	color:#000!important;
+	position:relative;
+	transition:0.5s all;
+}  
+
 
  
 .menuItemTop  a.traspodcast {
-	background: #f484c4;
- 	color:#fff!important;
+	background: #fff;
+ 	color:#f484c4!important;
 	position:relative;
-	    display: flex;
-    align-items: center;
+	display: flex;
+  align-items: center;
+		transition:0.5s all;
 }  
 
 .menuItemTop a.traspodcast:after {
 	content:'';
 	position:absolute;
-	top:30px;
-	right:30px;
+	top:50%;
+	right:20px;
+ 	background:url("../img/flecha-06.svg") no-repeat;
+	background-size:30px;
+	width:30px;
+	height:30px;
+	z-index:10;
+	transform: translateY(-50%);
+		transition:0.5s all;
+
+}  
+
+ 
+.menuItemTop  a.traspodcast:hover {
+	background: #f484c4;
+ 	color:#fff!important;
+	position:relative;
+	    display: flex;
+    align-items: center;
+		transition:0.5s all;
+}  
+
+.menuItemTop a.traspodcast:hover:after {
+	content:'';
+	position:absolute;
+	top:50%;
+	right:20px;
  	background:url("../img/flecha-05.svg") no-repeat;
 	background-size:30px;
 	width:30px;
 	height:30px;
 	z-index:10;
+	transform: translateY(-50%);
+		transition:0.5s all;
+
 }  
 
 
 	
- .menuItemTop a.blanco.active,	
+.menuItemTop a.blanco.active,	
 .menuItemTop a.blanco:hover,  
 .menuItem a.blanco.active,	
 .menuItem a.blanco:hover {
 	background:var(--blanco);
 	
 	color:#000!important;
+		transition:0.5s all;
 }  
 
 
@@ -1004,13 +1075,16 @@ section{
 .menuItem a.blanco:after {
 	content:'';
 	position:absolute;
-	top:30px;
-	right:30px;
+	top:50%;
+	right:20px;
  	background:url("../img/flecha-05.svg") no-repeat;
 	background-size:30px;
 	width:30px;
 	height:30px;
 	z-index:10;
+	    transform: translateY(-50%);
+		transition:0.5s all;
+
 }  
 
 
@@ -1018,13 +1092,16 @@ section{
 .menuItem a.blanco:hover:after {
 	content:'';
 	position:absolute;
-	top:30px;
-	right:30px;
+	top:50%;
+	right:20px;
  	background:url("../img/flecha-negra.svg") no-repeat;
 	background-size:30px;
 	width:30px;
 	height:30px;
 	z-index:10;
+	    transform: translateY(-50%);
+		transition:0.5s all;
+
 }  
 
 
@@ -1174,6 +1251,16 @@ ul.autorContainer li.autor{
 	margin-right:20px;
 	font-size:14px;
 	line-height:1;
+}
+
+
+ul.autorContainer li.autor a{
+	display:flex;
+	align-items:center;
+	margin-right:20px;
+	font-size:14px;
+	line-height:1;
+	color:#000;
 }
 
 
