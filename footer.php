@@ -13,8 +13,8 @@
 				<div class="col-12 col-lg-6 ">
 				
 					<div class="mb-4 ">
-						<h5><strong>Identidades Informadas</strong></h5>
-						<h6>Invitación a grupos y organizaciones a dejar un email para quedar en contacto.</h6>
+						<h5><strong>Identidades informadas</strong></h5>
+						<h6>¿Integrás un una organización o grupo que trabaja por los derechos de personas TTNB? Te invitamos a quedar en contacto.</h6>
 					</div>
 					<?php echo apply_shortcodes( '[contact-form-7 id="144" title="Untitled"]' ); ?>
 				</div>

@@ -422,7 +422,7 @@ input#menuToggle {
   font-size: 54px;
   text-align: center;
   padding-bottom: 0px;
-  margin-top:80px;
+  margin-top:85px;
 }
 
 .menu ul {
@@ -835,14 +835,12 @@ section{
 	position:relative;
     font-size: 27px;
     font-weight: 400;
-		transition:0.5s all;
-}
+ }
  
 
 .menuItem a h6{
   font-size:18px;
-		transition:0.5s all;
-
+ 
 }
 
 .menuItemTop a.celeste.active,	
@@ -1566,6 +1564,14 @@ background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 
     background: url("../img/flecha-negra.svg") no-repeat center;
     background-size: 30px;
  
+}
+
+.content-hoja ul {
+	padding-left:30px!important;
+}
+.content-hoja ul li{
+	list-style:disc!important;
+	margin-bottom:10px;
 }
 
 @media screen and (max-width: 991px) {	

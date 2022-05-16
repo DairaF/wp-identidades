@@ -46,12 +46,7 @@ $abstract = get_post_meta( get_the_ID(), 'abstract', true);
         <h3 class="mb-4">Resumen</h3>
           <p><?php echo($abstract); ?>
           </p>
-      </div>
-      <div class="col-12 col-lg-9 col-xl-9 order-2 order-lg-1 dark-mobile py-5 px-lg-3 mx-lg-3 py-md-0">
-        <h3 class="mb-4"><?php the_title() ?></h3>
-          </p>
-							<p><?php the_content() ?></p>
-      </div>
+      </div> 
 
     </div>
   </div>
@@ -61,13 +56,9 @@ $abstract = get_post_meta( get_the_ID(), 'abstract', true);
         <div class="container ">
             <div class="row">   
     			<div class="col-12 col-lg-9 col-xl-9 offset-xl-1 px-0 px-lg-3 mx-0 mx-lg-3">
-					<div class="tab_container tabs_light">								
-						<div id="tab1" class="tab_content">
-							<p><?php the_content() ?></p>
-						</div>
-					</div>
-            	</div>
-            </div>
+					<p><?php the_content() ?></p>
+          </div>
+        </div>
   		</div>
 </section> 
 
