@@ -8,7 +8,7 @@
 				<div class="row justify-content-lg-center">
 					<div class="col-12 col-lg-10 col-xl-8 pt-4 pt-lg-5">				
  						<h1 class="text-left text-lg-center">Glosario</h1>
-						<p class="text-left text-lg-center ">La página cuenta con una pantalla de inicio con una breve presentación del proyecto.</p>
+						<p class="text-left text-lg-center ">Palabras clave más utilizadas para referirse a la diversidad sexual, para comprender en detalle el contenido del sitio y la identidad de las personas sin prejuicios.</p>
 
 					</div>
 				</div>

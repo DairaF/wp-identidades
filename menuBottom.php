@@ -31,7 +31,7 @@
 						</li>
 						<li class="menuItem ">
 							<a id="grupob" href="http://identidadesinformadas.fund.ar/identidadesdos/grupo-promotor/" class="blanco">
-								<h4 class="">¿Quiénes Somos?</h4>
+								<h4 class="">¿Quiénes somos?</h4>
 								<h6>Historia del proyecto y de quienes participan de esta iniciativa.</h6>
 							</a>
 						</li>

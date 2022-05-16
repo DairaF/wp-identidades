@@ -34,6 +34,11 @@
 				</div>
 			</div>
     
+		</div>	
+		<div class="row justify-content-between">        
+				<div class="col-12">
+						<h6 class="text-center mt-5 mb-0">Última fecha de actualización: abril 2022</h6>
+				</div>								
 		</div>								
     </div>								
   </footer>

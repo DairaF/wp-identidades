@@ -1914,6 +1914,15 @@ text-align: center;
 	
 }
 
+.promotor p {
+	font-family:"aktiv-grotesk-light";
+}
+
+.promotor h4 {
+	font-size:24px;
+			font-family:"aktiv-grotesk-bold";
+
+}
 
 /*---------------------
  FOOTER 

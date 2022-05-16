@@ -48,7 +48,7 @@
           if($loop->have_posts() && $ok == true){
           ?>
           <div class="col-12">
-            <h2 class="text-left text-lg-center mb-5">Actualidades sobre: <?php if (sizeof($selectedTag) >= 2 ){
+            <h2 class="text-left text-lg-center mb-5">Actualidad sobre: <?php if (sizeof($selectedTag) >= 2 ){
               $size = sizeof($selectedTag);
               $counter = 0;
               foreach ($params as $param) {
