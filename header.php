@@ -134,7 +134,7 @@
 					</li>
 					<li class="menuItemTop ">
 						<a target="blank" href="https://untranspodcast.com/" class="traspodcast">
-							<h4 class="">Traspodcast</h4>
+							<h4 class="">Transpodcast</h4>
 							<h6></h6>
  						</a>
 					</li>

@@ -119,8 +119,7 @@
              ?>">
               <h4 class="card-title mb-3 d-block"><?php the_title(); ?></h4>
               <div class="d-flex align-items-center justify-content-between">
-                <p class="cardTag" style="color:<?php if($categName =='Actualidad'){ echo('#efb9e0');}else{echo('#a39cef');} ?>"><?php
-                echo($categName) ?></p>
+                <p class="cardTag" style="color:<?php if($categName =='Actualidad'){ echo('#efb9e0');}else{echo('#a39cef');} ?>"><?php echo($categName) ?></p>
                 <p class="cardDate mb-0"><?php the_date(); ?></p>
               </div>
             </div>
