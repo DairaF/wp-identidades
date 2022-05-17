@@ -329,7 +329,7 @@ a, a:hover, a:focus {
     border-bottom: 2px solid #fff;
 }
 
-
+body.page-id-24 .brand a,
 #site-header.menu-bg .brand  a{
     background: url('../img/fundar-white.svg') center no-repeat;
     background-size: contain;	
@@ -388,6 +388,13 @@ input#menuToggle {
   top: 6px;
   transform: rotate(0deg);
   transition: all 0.3s ease;
+}
+
+
+body.page-id-24 .open:after,
+body.page-id-24 .open:before,
+body.page-id-24 .open {
+	background-color: #ffffff;
 }
 
 .menuOpen {
@@ -1937,6 +1944,7 @@ footer{
 
 footer h6 {
 	font-size:14px;
+	line-height:1.4;
 }
 
 .footer-brand {
