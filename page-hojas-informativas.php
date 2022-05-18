@@ -16,7 +16,12 @@
 		<div class="container-fluid negativo">
 			<div class="row justify-content-center"> 
 				<?php 
-					$loop = new WP_Query( array( 'post_type' => 'hojas', 'orderby' => 'title','order' =>'ASC', 'posts_per_page' => 10 ) ); 
+					$loop = new WP_Query( array( 
+						'post_type' => 'hojas',
+						'meta_key' => 'hoja_n',
+						'orderby' => 'meta_value', 
+						'order' =>'ASC', 
+						'posts_per_page' => 10 ) ); 
 					while ( $loop->have_posts() ) : $loop->the_post();
 				?>
 				<!-- CARD -->
@@ -27,7 +32,7 @@
 						<div class="excerpt"> <?php echo( substr(get_field('abstract'), 0, 150)); ?>[...] </div>
 					<div class="d-flex align-items-center justify-content-between">
 						<p class="cardAuthor" href="">Por <?php the_field('autxr1'); if(get_field('autxr2')){ echo(', ');the_field('autxr2');} ?></p>
-						<p class="cardDate mb-0"><?php the_time('F j, Y'); ?></p>
+						<!-- <p class="cardDate mb-0"><?php /*the_time('F j, Y');*/ ?></p> -->
 					</div>
 					</div>
 				</a>					

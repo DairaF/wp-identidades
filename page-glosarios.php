@@ -20,7 +20,8 @@
 			$loop = new WP_Query( array( 
 				'post_type' => 'glosario', 
 				'posts_per_page' => 1000 ,
-				'orderby' => 'letra',
+				'meta_key' => 'letra',
+				'orderby' => 'meta_value',
 				'order'   => 'ASC',
 				) );
 

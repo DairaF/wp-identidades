@@ -41,15 +41,24 @@
 									?>
 								<?php if($largo >= 400){ ?>
 									<p id="crop<?php echo $con ?>" class="blanco"><?php echo $cropped ?></p>
-									<a class="blanco seeMore" onClick="this.style.display = 'none'; 
+									<a id="mas<?php echo $con ?>" class="blanco seeMore" onClick="this.style.display = 'none'; 
 										document.getElementById('crop<?php echo $con ?>').style.display = 'none';
 										document.getElementById('full<?php echo $con ?>').style.display = 'block';
+										document.getElementById('menos<?php echo $con ?>').style.display = 'block';
 										">
 										+ Ver más</a>
 									<p style="display:none" id="full<?php echo $con ?>" class="blanco more"><?php echo $content ?></p>
+									<a style="display:none" id="menos<?php echo $con ?>" class="blanco seeMore" onClick="this.style.display = 'none'; 
+										document.getElementById('full<?php echo $con ?>').style.display = 'none';
+										document.getElementById('crop<?php echo $con ?>').style.display = 'block';
+										document.getElementById('mas<?php echo $con ?>').style.display = 'block';
+										">
+										- Ver menos</a>
 									<?php }else{ ?>
 										<p style="display:none" id="crop<?php echo $con ?>" class="blanco"><?php echo $cropped ?></p>
 										<p id="full<?php echo $con ?>" class="blanco more"><?php echo $content ?></p>
+										
+										
 									<?php } ?>
 						</div>
 					</div>

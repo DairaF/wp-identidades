@@ -34,12 +34,11 @@
                 </div>
                 <div class="col-12 col-lg-10 col-xl-8 my-4">				
                     <ul class="autorContainer justify-content-lg-center">              
-                        <li class="autor"><a href="#a1"><span class="autorIcon"><?php echo(mb_substr(get_field('autxr1'), 0, 1, "UTF-8")) ?></span><span><?php the_field('autxr1') ?></span></a></li>    
+                        <li class="autor"><a href="#h3n7"><span class="autorIcon" style="background-image:url('<?php the_field('foto_autxr_1') ?>');background-size: cover;"></span><span><?php the_field('autxr1') ?></span></a></li>    
                         <?php 
-                            if(get_field('autxr2') != ""){
-                                $inicial = mb_substr(get_field('autxr2'), 0, 1, "UTF-8");
-                                $autor= get_field('autxr2');
-                                echo('<li class="autor"><a href="#a2"><span class="autorIcon">'. $inicial.'</span><span>'.$autor.'</span></a></li>');
+                            if(get_field('autxr2') != ""){ ?>
+                            <li class="autor"><a href="#h3n7"><span class="autorIcon" style="background-image:url('<?php the_field('foto_autxr_2') ?>');background-size: cover;"></span><span><?php the_field('autxr2') ?></span></a></li>
+                            <?php
                             } 
                         ?>
                     </ul> 

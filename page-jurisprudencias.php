@@ -12,31 +12,9 @@
 						<p class="text-left text-lg-center ">Fallos que avanzan en la garantía de derechos de las personas travestis, trans y no binarias. Selección sobre la base compilada por la Secretaría General de Capacitación y Jurisprudencia del Ministerio Público de la Defensa de la Nación. </p>
 					</div>
 				</div>
-				<div class="row justify-content-lg-center">
 
-          <div class="col-12 col-lg-8 col-xl-6 pt-4 pt-lg-5">				
-            <ul class="tagContainer justify-content-lg-center">
-              <li class="tag"><a id="identificacion" onClick="setTag('identificacion')" href="">Identificación</a></li>
-              <li class="tag"><a id="salud" onClick="setTag('salud')" href="">Salud integral</a></li>
-              <li class="tag"><a id="reparacion" onClick="setTag('reparacion')" href="">Reparación</a></li>
-              <li class="tag"><a id="participacion" onClick="setTag('participacion')" href="">Participación</a></li>
-              <li class="tag"><a id="violencias" onClick="setTag('violencias')" href="">Violencias</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="row justify-content-lg-center">
-          <div class="col-12 col-lg-8 col-xl-6 pb-5">	
-            <form name="searchForm" action="" method="post">
-              <div class="buscar-group">
-                <input name="searchTerm" type="text" class="form-control formBuscar" placeholder="Buscar">
-                  <button type="submit" class="btnBuscar" type="button">
-                    <i class="fa fa-search"></i>
-                  </button>
-              </div>
-            </form>	
-          </div>
-        </div>
-      		</div>
+				<?php include_once('tags-bar.php'); ?>
+      </div>
 			
 	</section>
   <!--------------- DE TAGS ------------------------------>		
@@ -52,6 +30,7 @@
 
              
         <?php
+        
         $loop = new WP_Query( array('post_type' => 'aplicacion'));
         $ok = false; 
         if ($selectedTag){
@@ -71,7 +50,7 @@
           if($loop->have_posts() && $ok == true){
           ?>
           <div class="col-12 pt-5">
-            <h2 class="text-left text-lg-center mb-5">Fallos sobre: <?php if (sizeof($selectedTag) >= 2 ){
+            <h2 class="text-left text-lg-center mb-5">Fallos sobre: <?php echo($search); ?> <?php if (sizeof($selectedTag) >= 2 ){
               $size = sizeof($selectedTag);
               $counter = 0;
               foreach ($params as $param) {
@@ -85,9 +64,8 @@
 					<div class="c-relacionadas pb-5">
           <?php
           }
-          $minTitle = strtolower(get_the_title());
           $minSearch = strtolower($search);
-          while ( $loop->have_posts() && $ok == true ) : $loop->the_post(); if ($search == null || str_contains($minTitle,$minSearch)): ?>
+          while ( $loop->have_posts() && $ok == true ) : $loop->the_post(); $minTitle = strtolower(get_the_title()); if ($search == null || str_contains($minTitle,$minSearch)): ?>
     <!-- CARD -->
     <div class="">
           <a href="<?php the_permalink() ?> " class="card" 
@@ -131,10 +109,10 @@
             <div class="card-body">
               <h4 class="card-title mb-3 d-block"><?php the_title() ?></h4>
               <div class="d-flex align-items-center justify-content-between">
-                <p class="cardTag lilaOsc"><?php $categories = get_the_category();
-                if ($categories) {
-                  foreach($categories as $cat) {
-                    echo ($cat->name);
+                <p class="cardTag lilaOsc"><?php $tags = get_the_tags();
+                if ($tags) {
+                  foreach($tags as $tag) {
+                    echo (ucfirst($tag->name) . " ");
                   }
                 } ?></p>
                 <p class="cardDate mb-0"><?php the_date() ?></p>

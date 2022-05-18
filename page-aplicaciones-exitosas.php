@@ -56,7 +56,7 @@
           if($loop->have_posts() && $ok == true){
           ?>
           <div class="col-12 pt-5">
-            <h2 class="text-left text-lg-center mb-5">Aplicaciones sobre: <?php if (sizeof($selectedTag) >= 2 ){
+            <h2 class="text-left text-lg-center mb-5">Aplicaciones sobre: <?php echo($search); ?> <?php if (sizeof($selectedTag) >= 2 ){
               $size = sizeof($selectedTag);
               $counter = 0;
               foreach ($params as $param) {
@@ -70,9 +70,9 @@
 					<div class="c-relacionadas pb-5">
           <?php
           }
-          $minTitle = strtolower(get_the_title());
+         
           $minSearch = strtolower($search);
-          while ( $loop->have_posts() && $ok == true ) : $loop->the_post(); if ($search == null || str_contains($minTitle,$minSearch)): ?>
+          while ( $loop->have_posts() && $ok == true ) : $loop->the_post(); $minTitle = strtolower(get_the_title()); if ($search == null || str_contains($minTitle,$minSearch)): ?>
     <!-- CARD -->
     <div class="">
           <a href="<?php the_permalink() ?> " target="blank" class="card" 
